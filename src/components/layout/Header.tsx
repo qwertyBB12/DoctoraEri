@@ -2,24 +2,37 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import LanguageSwitcher from './LanguageSwitcher'
+
+const navLinks = {
+  es: [
+    { href: '/es', label: 'Inicio' },
+    { href: '/es/sobre-dra-erika', label: 'Sobre Dra. Erika' },
+    { href: '/es/servicios', label: 'Servicios' },
+    { href: '/es/preguntas-frecuentes', label: 'FAQ' },
+  ],
+  en: [
+    { href: '/en', label: 'Home' },
+    { href: '/en/about', label: 'About' },
+    { href: '/en/services', label: 'Services' },
+    { href: '/en/faq', label: 'FAQ' },
+  ],
+}
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const pathname = usePathname()
+  const locale = pathname.startsWith('/en') ? 'en' : 'es'
+  const links = navLinks[locale]
+  const contactHref = locale === 'en' ? '/en/contact' : '/es/contacto'
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
-  const links = [
-    { href: '/es', label: 'Inicio' },
-    { href: '/es/sobre-dra-erika', label: 'Sobre Dra. Erika' },
-    { href: '/es/servicios', label: 'Servicios' },
-    { href: '/es/preguntas-frecuentes', label: 'FAQ' },
-  ]
 
   return (
     <header className={`
@@ -33,17 +46,17 @@ export default function Header() {
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-6 focus:py-3 focus:bg-borgonia focus:text-white focus:rounded-sm"
       >
-        Saltar al contenido principal
+        {locale === 'en' ? 'Skip to main content' : 'Saltar al contenido principal'}
       </a>
 
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <Link href="/es" className="group flex flex-col">
+          <Link href={locale === 'en' ? '/en' : '/es'} className="group flex flex-col">
             <span className="text-xl font-extrabold text-borgonia group-hover:text-salvia transition-colors duration-300 tracking-[-0.02em]">
               Dra. Erika Torres Valdez
             </span>
             <span className="text-xs text-taupe tracking-wide">
-              Urofemina · Urología Femenina
+              Urofemina · {locale === 'en' ? 'Female Urology' : 'Urología Femenina'}
             </span>
           </Link>
 
@@ -62,10 +75,10 @@ export default function Header() {
             <LanguageSwitcher />
 
             <Link
-              href="/es/contacto"
+              href={contactHref}
               className="px-6 py-2.5 font-bold text-sm tracking-wide text-borgonia border border-borgonia rounded-sm hover:bg-borgonia hover:text-white transition-all duration-300"
             >
-              Contacto
+              {locale === 'en' ? 'Contact' : 'Contacto'}
             </Link>
           </nav>
 
@@ -87,7 +100,7 @@ export default function Header() {
         {isMenuOpen && (
           <nav className="sm:hidden py-6 border-t border-perla/30">
             <div className="flex flex-col gap-4">
-              {[...links, { href: '/es/contacto', label: 'Contacto' }].map((link) => (
+              {[...links, { href: contactHref, label: locale === 'en' ? 'Contact' : 'Contacto' }].map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}

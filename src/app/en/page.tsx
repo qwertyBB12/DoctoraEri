@@ -114,7 +114,7 @@ export default function HomePageEN() {
 
               <div className="flex items-center gap-6">
                 <a
-                  href="/es/contacto"
+                  href="/en/contact"
                   className="inline-block px-10 py-4 bg-borgonia text-white font-semibold text-base rounded-sm hover:-translate-y-0.5 transition-all duration-300"
                 >
                   Schedule a Consultation
@@ -251,13 +251,13 @@ export default function HomePageEN() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="/es/contacto"
+                  href="/en/contact"
                   className="inline-flex items-center justify-center font-bold text-lg tracking-wide transition-all duration-300 rounded-sm px-8 py-4 bg-white text-borgonia hover:bg-oro hover:text-white"
                 >
                   Schedule a Consultation
                 </a>
                 <a
-                  href="/en"
+                  href="/en/about"
                   className="inline-flex items-center justify-center font-bold text-lg tracking-wide transition-all duration-300 rounded-sm px-8 py-4 text-white border-2 border-white/60 hover:bg-white hover:text-borgonia"
                 >
                   About Dra. Erika
