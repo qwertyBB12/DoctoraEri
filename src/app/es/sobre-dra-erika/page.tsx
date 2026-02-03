@@ -43,7 +43,7 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-lg text-grafito leading-[1.7] max-w-3xl">
                 <p>
-                  Mi formación como Directora Médica en Bayer México me permitió desarrollar
+                  Mi formación como Gerente Médico en Bayer México me permitió desarrollar
                   una perspectiva integral sobre la salud femenina, combinando rigor
                   farmacéutico con práctica clínica especializada.
                 </p>
@@ -121,7 +121,7 @@ export default function AboutPage() {
                   Bayer México
                 </h3>
                 <p className="text-grafito text-[15px] leading-[1.7]">
-                  Directora Médica de Salud Femenina. Experiencia en desarrollo clínico,
+                  Gerente Médico de Salud Femenina. Experiencia en desarrollo clínico,
                   asuntos regulatorios y estándares de evidencia farmacéutica.
                 </p>
               </div>

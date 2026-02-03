@@ -43,7 +43,7 @@ export default function AboutPageEN() {
 
               <div className="space-y-6 text-lg text-grafito leading-[1.7] max-w-3xl">
                 <p>
-                  My training as Medical Director at Bayer Mexico allowed me to develop
+                  My training as Medical Manager at Bayer Mexico allowed me to develop
                   a comprehensive perspective on women&apos;s health, combining pharmaceutical
                   rigor with specialized clinical practice.
                 </p>
@@ -119,7 +119,7 @@ export default function AboutPageEN() {
                   Bayer Mexico
                 </h3>
                 <p className="text-grafito text-[15px] leading-[1.7]">
-                  Medical Director of Women&apos;s Health. Experience in clinical development,
+                  Medical Manager of Women&apos;s Health. Experience in clinical development,
                   regulatory affairs, and pharmaceutical evidence standards.
                 </p>
               </div>
