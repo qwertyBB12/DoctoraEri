@@ -11,7 +11,7 @@ export default function Hero() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-[2px] bg-oro" />
                 <span className="text-xs font-medium tracking-wider text-taupe uppercase">
-                  Urología Femenina &amp; Piso Pélvico · Ciudad de México
+                  Uroginecología · Medicina Pélvica Femenina · Ciudad de México
                 </span>
               </div>
 
@@ -37,19 +37,19 @@ export default function Hero() {
             <div className="flex items-start gap-4">
               <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
               <p className="text-lg text-grafito leading-relaxed">
+                <strong className="font-semibold text-borgonia">Uroginecóloga</strong> — Ginecóloga y Obstetra con formación avanzada en Urología
+              </p>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
+              <p className="text-lg text-grafito leading-relaxed">
+                <strong className="font-semibold text-borgonia">Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva</strong> (FPMRS)
+              </p>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
+              <p className="text-lg text-grafito leading-relaxed">
                 <strong className="font-semibold text-borgonia">Ex-Directora Médica de Salud Femenina</strong>, Bayer México
-              </p>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-              <p className="text-lg text-grafito leading-relaxed">
-                <strong className="font-semibold text-borgonia">Certificada por el Consejo Mexicano de Urología</strong>
-              </p>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-              <p className="text-lg text-grafito leading-relaxed">
-                Especialista en urología femenina y cirugía reconstructiva pélvica
               </p>
             </div>
             <div className="flex items-start gap-4">

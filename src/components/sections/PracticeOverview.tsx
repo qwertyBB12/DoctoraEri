@@ -6,7 +6,7 @@ export default function PracticeOverview() {
     },
     {
       title: 'Evidencia Clínica',
-      body: 'Cada decisión terapéutica se fundamenta en literatura médica actual, guías de práctica clínica de IUGA/AUGS, y estándares del Consejo Mexicano de Urología.',
+      body: 'Cada decisión terapéutica se fundamenta en literatura médica actual, guías de práctica clínica de IUGA/AUGS/ACOG, y estándares del Consejo Mexicano de Ginecología y Obstetricia.',
     },
     {
       title: 'Tratamiento Individualizado',
@@ -21,12 +21,13 @@ export default function PracticeOverview() {
           Filosofía de Práctica
         </p>
         <h2 className="text-borgonia mb-6 max-w-3xl">
-          Urología femenina con rigor científico y sensibilidad clínica.
+          Uroginecología con rigor científico y sensibilidad clínica.
         </h2>
         <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
-          La práctica integra formación quirúrgica especializada con experiencia
-          en dirección médica farmacéutica — una perspectiva única que conecta
-          innovación terapéutica con práctica clínica directa.
+          La práctica integra formación en ginecología, obstetricia y urología
+          con fellowship avanzado en medicina pélvica femenina y cirugía reconstructiva,
+          sumado a experiencia en dirección médica farmacéutica — una perspectiva
+          única que conecta innovación terapéutica con práctica clínica directa.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
@@ -35,9 +36,7 @@ export default function PracticeOverview() {
               <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
                 {v.title}
               </h3>
-              <p className="text-grafito leading-[1.7] text-[15px]">
-                {v.body}
-              </p>
+              <p className="text-grafito leading-[1.7] text-[15px]">{v.body}</p>
             </div>
           ))}
         </div>

@@ -10,7 +10,7 @@ export default function Footer() {
               &copy; 2026 Dra. Erika Torres Valdez · Urofemina
             </p>
             <p className="text-xs text-white/40">
-              Urología Femenina y Medicina del Piso Pélvico · Ciudad de México
+              Uroginecología · Medicina Pélvica Femenina y Cirugía Reconstructiva · Ciudad de México
             </p>
           </div>
 

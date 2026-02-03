@@ -4,7 +4,7 @@ import ServicesGrid from '@/components/sections/ServicesGrid'
 
 export const metadata = {
   title: 'Servicios | Urofemina - Dra. Erika Torres Valdez',
-  description: 'Servicios especializados en urología femenina: incontinencia urinaria, prolapso pélvico, disfunción del piso pélvico, salud sexual y cirugía mínimamente invasiva.',
+  description: 'Servicios especializados en uroginecología: incontinencia urinaria, prolapso pélvico, disfunción del piso pélvico, salud sexual y cirugía reconstructiva pélvica.',
 }
 
 export default function ServicesPage() {
@@ -16,7 +16,7 @@ export default function ServicesPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="mb-6">Servicios Especializados</h1>
             <p className="text-lg text-grafito mx-auto">
-              Atención integral en urología femenina y medicina del piso pélvico,
+              Atención integral en uroginecología y medicina pélvica femenina,
               con protocolos basados en evidencia y enfoque personalizado para cada paciente.
             </p>
           </div>

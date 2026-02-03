@@ -56,7 +56,7 @@ export default function Header() {
               Dra. Erika Torres Valdez
             </span>
             <span className="text-xs text-taupe tracking-wide">
-              Urofemina · {locale === 'en' ? 'Female Urology' : 'Urología Femenina'}
+              Urofemina · {locale === 'en' ? 'Urogynecology' : 'Uroginecología'}
             </span>
           </Link>
 

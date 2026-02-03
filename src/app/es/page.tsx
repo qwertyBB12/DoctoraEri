@@ -8,8 +8,8 @@ import ClosingStatement from '@/components/sections/ClosingStatement'
 import FadeInSection from '@/components/ui/FadeInSection'
 
 export const metadata = {
-  title: 'Urofemina | Dra. Erika Torres Valdez | Urología Femenina CDMX',
-  description: 'Especialista en urología femenina y medicina del piso pélvico. Tratamiento de incontinencia, prolapso pélvico y disfunciones urogenitales. Ex-Directora Médica Bayer México.',
+  title: 'Urofemina | Dra. Erika Torres Valdez | Uroginecología CDMX',
+  description: 'Uroginecóloga. Ginecóloga y Obstetra con formación en Urología y Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS). Ex-Directora Médica Bayer México.',
 }
 
 export default function HomePage() {

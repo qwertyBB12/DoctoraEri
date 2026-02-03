@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata = {
   title: 'Urofemina | Dra. Erika Torres Valdez',
-  description: 'Especialista en Urología Femenina y Medicina del Piso Pélvico. Ex-Directora Médica Bayer México. Ciudad de México.',
+  description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. Ex-Directora Médica Bayer México. Ciudad de México.',
 }
 
 export default function RootLayout({

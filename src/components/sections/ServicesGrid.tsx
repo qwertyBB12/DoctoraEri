@@ -45,8 +45,8 @@ export default function ServicesGrid() {
         </h2>
         <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
           Desde evaluación diagnóstica hasta procedimientos quirúrgicos avanzados,
-          cada área de práctica se sustenta en protocolos internacionales y
-          experiencia clínica directa.
+          cada área de práctica se sustenta en formación uroginecológica integral,
+          protocolos internacionales y experiencia clínica directa.
         </p>
 
         {/* Featured card */}

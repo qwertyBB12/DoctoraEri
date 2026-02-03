@@ -1,9 +1,9 @@
 export default function Governance() {
   const credentials = [
     {
-      label: 'Certificación',
-      title: 'Consejo Mexicano de Urología',
-      detail: 'Certificación vigente en urología con subespecialización en urología femenina y cirugía reconstructiva pélvica.',
+      label: 'Formación',
+      title: 'Uroginecóloga — FPMRS',
+      detail: 'Ginecóloga y Obstetra con formación avanzada en Urología y Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS).',
     },
     {
       label: 'Experiencia Institucional',
@@ -12,8 +12,8 @@ export default function Governance() {
     },
     {
       label: 'Afiliaciones Internacionales',
-      title: 'IUGA · AUGS · SMU · COMEGO',
-      detail: 'Membresías activas en las principales sociedades internacionales de urología femenina y uroginecología.',
+      title: 'IUGA · AUGS · ACOG · COMEGO',
+      detail: 'Membresías activas en las principales sociedades internacionales de uroginecología, ginecología y obstetricia.',
     },
   ]
 

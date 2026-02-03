@@ -4,7 +4,7 @@ import ServiceCard from '@/components/ui/ServiceCard'
 
 export const metadata = {
   title: 'Services | Urofemina - Dra. Erika Torres Valdez',
-  description: 'Specialized female urology services: urinary incontinence, pelvic prolapse, pelvic floor dysfunction, sexual health, and minimally invasive surgery.',
+  description: 'Specialized urogynecology services: urinary incontinence, pelvic prolapse, pelvic floor dysfunction, sexual health, and pelvic reconstructive surgery.',
 }
 
 const services = [
@@ -43,7 +43,7 @@ export default function ServicesPageEN() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="mb-6">Specialized Services</h1>
             <p className="text-lg text-grafito mx-auto">
-              Comprehensive care in female urology and pelvic floor medicine,
+              Comprehensive care in urogynecology and female pelvic medicine,
               with evidence-based protocols and a personalized approach for each patient.
             </p>
           </div>
@@ -59,7 +59,8 @@ export default function ServicesPageEN() {
             </h2>
             <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
               From diagnostic evaluation to advanced surgical procedures, each area
-              of practice is grounded in international protocols and direct clinical experience.
+              of practice is grounded in comprehensive urogynecological training,
+              international protocols, and direct clinical experience.
             </p>
 
             <div className="bg-white shadow-[0_2px_8px_rgba(61,55,53,0.08),0_16px_48px_rgba(61,55,53,0.12)] rounded-[12px] p-12 md:p-[60px] mb-10">

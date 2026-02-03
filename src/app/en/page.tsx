@@ -4,8 +4,8 @@ import Footer from '@/components/layout/Footer'
 import FadeInSection from '@/components/ui/FadeInSection'
 
 export const metadata = {
-  title: 'Dra. Erika Torres Valdez | Urofemina | Female Urology Mexico City',
-  description: 'Female urology and pelvic floor medicine specialist. Board certified. Former Medical Director of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
+  title: 'Dra. Erika Torres Valdez | Urofemina | Urogynecology Mexico City',
+  description: 'Urogynecologist. OB/GYN with advanced urology training and fellowship in Female Pelvic Medicine and Reconstructive Surgery (FPMRS). Former Medical Director of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
 }
 
 export default function HomePageEN() {
@@ -16,7 +16,7 @@ export default function HomePageEN() {
     },
     {
       title: 'Clinical Evidence',
-      body: 'Every therapeutic decision is grounded in current medical literature, IUGA/AUGS clinical practice guidelines, and Mexican Council of Urology standards.',
+      body: 'Every therapeutic decision is grounded in current medical literature, IUGA/AUGS/ACOG clinical practice guidelines, and international standards of care.',
     },
     {
       title: 'Individualized Treatment',
@@ -35,9 +35,9 @@ export default function HomePageEN() {
 
   const credentials = [
     {
-      label: 'Certification',
-      title: 'Mexican Council of Urology',
-      detail: 'Current board certification in urology with subspecialization in female urology and pelvic reconstructive surgery.',
+      label: 'Training',
+      title: 'Urogynecologist — FPMRS',
+      detail: 'Obstetrician/Gynecologist with advanced urology training and Fellowship in Female Pelvic Medicine and Reconstructive Surgery (FPMRS).',
     },
     {
       label: 'Institutional Experience',
@@ -46,8 +46,8 @@ export default function HomePageEN() {
     },
     {
       label: 'International Affiliations',
-      title: 'IUGA · AUGS · SMU · COMEGO',
-      detail: 'Active memberships in the leading international societies in female urology and urogynecology.',
+      title: 'IUGA · AUGS · ACOG · COMEGO',
+      detail: 'Active memberships in the leading international societies in urogynecology, obstetrics, and gynecology.',
     },
   ]
 
@@ -65,7 +65,7 @@ export default function HomePageEN() {
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-12 h-[2px] bg-oro" />
                     <span className="text-xs font-medium tracking-wider text-taupe uppercase">
-                      Female Urology &amp; Pelvic Floor · Mexico City
+                      Urogynecology · Female Pelvic Medicine · Mexico City
                     </span>
                   </div>
                   <h1 className="text-borgonia mb-8">
@@ -89,19 +89,19 @@ export default function HomePageEN() {
                 <div className="flex items-start gap-4">
                   <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
                   <p className="text-lg text-grafito leading-relaxed">
+                    <strong className="font-semibold text-borgonia">Urogynecologist</strong> — OB/GYN with advanced urology training
+                  </p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
+                  <p className="text-lg text-grafito leading-relaxed">
+                    <strong className="font-semibold text-borgonia">Fellowship in Female Pelvic Medicine &amp; Reconstructive Surgery</strong> (FPMRS)
+                  </p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
+                  <p className="text-lg text-grafito leading-relaxed">
                     <strong className="font-semibold text-borgonia">Former Medical Director of Women&apos;s Health</strong>, Bayer Mexico
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Board Certified by the Mexican Council of Urology</strong>
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed">
-                    Specialist in female urology and pelvic reconstructive surgery
                   </p>
                 </div>
                 <div className="flex items-start gap-4">
@@ -136,12 +136,13 @@ export default function HomePageEN() {
                 Practice Philosophy
               </p>
               <h2 className="text-borgonia mb-6 max-w-3xl">
-                Female urology with scientific rigor and clinical sensitivity.
+                Urogynecology with scientific rigor and clinical sensitivity.
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
-                The practice integrates specialized surgical training with pharmaceutical
-                medical directorship experience — a unique perspective connecting
-                therapeutic innovation with direct clinical practice.
+                The practice integrates training in gynecology, obstetrics, and urology
+                with an advanced fellowship in female pelvic medicine and reconstructive
+                surgery, combined with pharmaceutical medical directorship experience —
+                a unique perspective connecting therapeutic innovation with direct clinical practice.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
                 {values.map((v, i) => (
@@ -169,7 +170,8 @@ export default function HomePageEN() {
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
                 From diagnostic evaluation to advanced surgical procedures, each area
-                of practice is grounded in international protocols and direct clinical experience.
+                of practice is grounded in comprehensive urogynecological training,
+                international protocols, and direct clinical experience.
               </p>
 
               <div className="bg-white shadow-[0_2px_8px_rgba(61,55,53,0.08),0_16px_48px_rgba(61,55,53,0.12)] rounded-[12px] p-12 md:p-[60px] mb-10">

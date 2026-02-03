@@ -3,16 +3,16 @@ import Footer from '@/components/layout/Footer'
 
 export const metadata = {
   title: 'Frequently Asked Questions | Urofemina',
-  description: 'Answers to common questions about female urology, consultations, and treatments with Dra. Erika Torres Valdez.',
+  description: 'Answers to common questions about urogynecology, consultations, and treatments with Dra. Erika Torres Valdez.',
 }
 
 const faqs = [
   {
-    question: 'What is female urology?',
-    answer: 'Female urology is a medical subspecialty focused on the diagnosis and treatment of conditions affecting the female urinary tract and pelvic floor, including urinary incontinence, pelvic organ prolapse, recurrent urinary tract infections, and pelvic floor dysfunction.',
+    question: 'What is urogynecology?',
+    answer: 'Urogynecology is a medical subspecialty at the intersection of gynecology, obstetrics, and urology. It focuses on the diagnosis and treatment of conditions affecting the female pelvic floor, including urinary incontinence, pelvic organ prolapse, recurrent urinary tract infections, and pelvic floor dysfunction. It requires advanced fellowship training in Female Pelvic Medicine and Reconstructive Surgery (FPMRS).',
   },
   {
-    question: 'When should I see a female urologist?',
+    question: 'When should I see a urogynecologist?',
     answer: 'You should consider a consultation if you experience involuntary urine leakage, a sensation of pressure or bulging in the vaginal area, chronic pelvic pain, frequent urinary urgency, recurrent urinary tract infections, or discomfort during sexual intercourse.',
   },
   {

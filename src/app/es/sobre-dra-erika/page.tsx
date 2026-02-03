@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'Sobre Dra. Erika Torres Valdez | Urofemina',
-  description: 'Formación médica, experiencia profesional y áreas de especialización de Dra. Erika Torres Valdez.',
+  description: 'Formación médica, experiencia profesional y áreas de especialización de Dra. Erika Torres Valdez, uroginecóloga.',
 }
 
 export default function AboutPage() {
@@ -35,10 +35,11 @@ export default function AboutPage() {
                   farmacéutico con práctica clínica especializada.
                 </p>
                 <p>
-                  La urología femenina y medicina del piso pélvico requieren una aproximación
-                  multidisciplinaria que integre conocimiento anatómico detallado, comprensión
-                  de fisiopatología compleja, y sensibilidad a los factores que afectan la
-                  calidad de vida de las pacientes.
+                  La uroginecología requiere una aproximación multidisciplinaria que integre
+                  conocimiento ginecológico, obstétrico y urológico con entrenamiento avanzado
+                  en medicina pélvica femenina y cirugía reconstructiva — comprendiendo la
+                  fisiopatología compleja y los factores que afectan la calidad de vida
+                  de las pacientes.
                 </p>
                 <p>
                   Mi práctica se enfoca en evaluación diagnóstica completa, aplicación de
@@ -52,8 +53,9 @@ export default function AboutPage() {
                 <h3 className="mb-6">Formación Médica</h3>
                 <ul className="space-y-3 text-grafito pl-5">
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Médico Cirujano, Universidad Nacional Autónoma de México</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Especialidad en Urología</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Subespecialidad en Urología Femenina y Cirugía Reconstructiva Pélvica</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Especialidad en Ginecología y Obstetricia</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Formación avanzada en Urología</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS)</li>
                 </ul>
               </div>
 
@@ -61,7 +63,7 @@ export default function AboutPage() {
                 <h3 className="mb-6">Experiencia Profesional</h3>
                 <ul className="space-y-3 text-grafito pl-5">
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Directora Médica de Salud Femenina, Bayer México</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Práctica especializada en urología femenina y piso pélvico</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Práctica especializada en uroginecología y medicina pélvica femenina</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Cirujana activa en Hospital Español, Hospital ABC</li>
                 </ul>
               </div>
@@ -71,7 +73,7 @@ export default function AboutPage() {
                 <ul className="space-y-3 text-grafito pl-5">
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">International Urogynecological Association (IUGA)</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">American Urogynecologic Society (AUGS)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Sociedad Mexicana de Urología</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">American College of Obstetricians and Gynecologists (ACOG)</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Colegio Mexicano de Especialistas en Ginecología y Obstetricia (COMEGO)</li>
                 </ul>
               </div>

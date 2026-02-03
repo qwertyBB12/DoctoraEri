@@ -3,16 +3,16 @@ import Footer from '@/components/layout/Footer'
 
 export const metadata = {
   title: 'Preguntas Frecuentes | Urofemina',
-  description: 'Respuestas a preguntas comunes sobre urología femenina, consultas y tratamientos con Dra. Erika Torres Valdez.',
+  description: 'Respuestas a preguntas comunes sobre uroginecología, consultas y tratamientos con Dra. Erika Torres Valdez.',
 }
 
 const faqs = [
   {
-    question: '¿Qué es la urología femenina?',
-    answer: 'La urología femenina es una subespecialidad médica que se enfoca en el diagnóstico y tratamiento de condiciones que afectan el tracto urinario y el piso pélvico de la mujer, incluyendo incontinencia urinaria, prolapso de órganos pélvicos, infecciones urinarias recurrentes y disfunción del piso pélvico.',
+    question: '¿Qué es la uroginecología?',
+    answer: 'La uroginecología es una subespecialidad médica en la intersección de la ginecología, obstetricia y urología. Se enfoca en el diagnóstico y tratamiento de condiciones que afectan el piso pélvico femenino, incluyendo incontinencia urinaria, prolapso de órganos pélvicos, infecciones urinarias recurrentes y disfunción del piso pélvico. Requiere formación avanzada mediante fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS).',
   },
   {
-    question: '¿Cuándo debo consultar a una uróloga femenina?',
+    question: '¿Cuándo debo consultar a una uroginecóloga?',
     answer: 'Se recomienda consultar cuando presenta pérdida involuntaria de orina, sensación de presión o bulto vaginal, dolor pélvico crónico, urgencia urinaria frecuente, infecciones urinarias recurrentes, o molestias durante las relaciones sexuales.',
   },
   {
