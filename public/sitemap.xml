@@ -1,33 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Spanish Pages -->
   <url>
     <loc>https://doctoraeri.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://doctoraeri.com/es/sobre-dra-erika</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/sobre-dra-erika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/about"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doctoraeri.com/es/servicios</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/servicios"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/services"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doctoraeri.com/es/preguntas-frecuentes</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/preguntas-frecuentes"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/faq"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://doctoraeri.com/es/contacto</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/es/aviso-privacidad</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/aviso-privacidad"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/es/terminos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/terminos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- English Pages -->
+  <url>
+    <loc>https://doctoraeri.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/sobre-dra-erika"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/services"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/servicios"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/preguntas-frecuentes"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://doctoraeri.com/en</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://doctoraeri.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/contacto"/>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/aviso-privacidad"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://doctoraeri.com/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://doctoraeri.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://doctoraeri.com/es/terminos"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

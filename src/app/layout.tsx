@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import StructuredData from '@/components/StructuredData'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -14,7 +15,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://doctoraeri.netlify.app'),
+  metadataBase: new URL('https://doctoraeri.com'),
   title: 'Urofemina | Dra. Erika Torres Valdez',
   description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. Ex-Directora Médica Bayer México. Ciudad de México.',
   icons: {
@@ -66,6 +67,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es" className={inter.variable}>
+      <head>
+        <StructuredData />
+      </head>
       <body>{children}</body>
     </html>
   )
