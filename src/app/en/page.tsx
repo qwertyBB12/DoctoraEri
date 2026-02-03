@@ -5,7 +5,7 @@ import FadeInSection from '@/components/ui/FadeInSection'
 
 export const metadata = {
   title: 'Dra. Erika Torres Valdez | Urofemina | Urogynecology Mexico City',
-  description: 'Urogynecologist. Gynecologic Urology specialist trained at Instituto Nacional de Perinatología. Former Medical Manager of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
+  description: 'Urogynecologist. Gynecologic Urology specialist trained at Instituto Nacional de Perinatología. Former Gerente Médico, Women\'s Health Division, Bayer Mexico. World Trade Center, Mexico City.',
   openGraph: {
     title: 'Dra. Erika Torres Valdez | Urofemina',
     description: 'Urogynecologist. Female Pelvic Medicine & Reconstructive Surgery specialist. World Trade Center, Mexico City.',
@@ -111,7 +111,7 @@ export default function HomePageEN() {
                 <div className="flex items-start gap-4">
                   <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
                   <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Former Medical Manager of Women&apos;s Health</strong>, Bayer Mexico
+                    <strong className="font-semibold text-borgonia">Former Gerente Médico</strong> — Women&apos;s Health Division, Bayer Mexico
                   </p>
                 </div>
                 <div className="flex items-start gap-4">
@@ -150,7 +150,7 @@ export default function HomePageEN() {
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
                 The practice integrates specialized training in gynecology, obstetrics,
-                and gynecologic urology with pharmaceutical medical directorship experience —
+                and gynecologic urology with pharmaceutical medical leadership at Bayer —
                 a unique perspective connecting therapeutic innovation with direct clinical practice.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">

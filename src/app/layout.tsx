@@ -17,7 +17,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://doctoraeri.com'),
   title: 'Urofemina | Dra. Erika Torres Valdez',
-  description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. Ex-Gerente Médico Bayer México. Ciudad de México.',
+  description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. Ex-Gerente Médico, División de Salud Femenina, Bayer México. Ciudad de México.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '48x48' },

@@ -43,9 +43,11 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-lg text-grafito leading-[1.7] max-w-3xl">
                 <p>
-                  Mi formación como Gerente Médico en Bayer México me permitió desarrollar
-                  una perspectiva integral sobre la salud femenina, combinando rigor
-                  farmacéutico con práctica clínica especializada.
+                  Como Gerente Médico de la División de Salud Femenina en Bayer México,
+                  lideré la estrategia médica, supervisión de desarrollo clínico y asuntos
+                  regulatorios para terapéuticas que llegan a pacientes en todo el país —
+                  experiencia que consolidó mi compromiso con la práctica basada en evidencia
+                  y estándares clínicos rigurosos.
                 </p>
                 <p>
                   La uroginecología requiere una aproximación multidisciplinaria que integre
@@ -121,8 +123,9 @@ export default function AboutPage() {
                   Bayer México
                 </h3>
                 <p className="text-grafito text-[15px] leading-[1.7]">
-                  Gerente Médico de Salud Femenina. Experiencia en desarrollo clínico,
-                  asuntos regulatorios y estándares de evidencia farmacéutica.
+                  Gerente Médico, División de Salud Femenina. Liderazgo en estrategia médica,
+                  supervisión de desarrollo clínico, asuntos regulatorios y estándares de
+                  evidencia para terapéuticas de salud femenina a nivel nacional.
                 </p>
               </div>
               <div className="bg-white rounded-[12px] p-10 shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)]">

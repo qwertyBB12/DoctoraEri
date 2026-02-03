@@ -43,9 +43,10 @@ export default function AboutPageEN() {
 
               <div className="space-y-6 text-lg text-grafito leading-[1.7] max-w-3xl">
                 <p>
-                  My training as Medical Manager at Bayer Mexico allowed me to develop
-                  a comprehensive perspective on women&apos;s health, combining pharmaceutical
-                  rigor with specialized clinical practice.
+                  As Gerente Médico of Women&apos;s Health at Bayer Mexico, I led medical strategy,
+                  clinical development oversight, and regulatory affairs for therapeutics reaching
+                  patients across the country — experience that shaped my commitment to
+                  evidence-based practice and rigorous clinical standards.
                 </p>
                 <p>
                   Urogynecology requires a multidisciplinary approach that integrates
@@ -119,8 +120,9 @@ export default function AboutPageEN() {
                   Bayer Mexico
                 </h3>
                 <p className="text-grafito text-[15px] leading-[1.7]">
-                  Medical Manager of Women&apos;s Health. Experience in clinical development,
-                  regulatory affairs, and pharmaceutical evidence standards.
+                  Gerente Médico, Women&apos;s Health Division. Led medical strategy,
+                  clinical development oversight, regulatory affairs, and evidence
+                  standards for women&apos;s health therapeutics nationwide.
                 </p>
               </div>
               <div className="bg-white rounded-[12px] p-10 shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)]">

@@ -26,7 +26,7 @@ export default function PracticeOverview() {
         <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
           La práctica integra formación en ginecología, obstetricia y urología
           con fellowship avanzado en medicina pélvica femenina y cirugía reconstructiva,
-          sumado a experiencia en dirección médica farmacéutica — una perspectiva
+          sumado a liderazgo médico en la industria farmacéutica en Bayer — una perspectiva
           única que conecta innovación terapéutica con práctica clínica directa.
         </p>
 
