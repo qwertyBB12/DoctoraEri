@@ -14,6 +14,10 @@ const routeMap: Record<string, string> = {
   '/en/faq': '/es/preguntas-frecuentes',
   '/es/contacto': '/en/contact',
   '/en/contact': '/es/contacto',
+  '/es/aviso-privacidad': '/en/privacy',
+  '/en/privacy': '/es/aviso-privacidad',
+  '/es/terminos': '/en/terms',
+  '/en/terms': '/es/terminos',
 }
 
 export default function LanguageSwitcher() {
