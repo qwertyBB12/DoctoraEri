@@ -45,9 +45,9 @@ export default function HomePageEN() {
       detail: 'Medical Degree. Diploma in Laparoscopic Surgery.',
     },
     {
-      label: 'Institutional Experience',
-      title: 'Bayer Mexico — Medical Director',
-      detail: 'Former Medical Director of Women\'s Health. Experience in clinical development, regulatory affairs, and pharmaceutical evidence standards.',
+      label: 'Professional Leadership',
+      title: 'FEMECOG · COMEGO · FLASOG',
+      detail: 'Active on governing boards of FEMECOG and COMEGO. Mexico representative to FLASOG. Lecturer and trainer across Mexico and the Americas.',
     },
   ]
 

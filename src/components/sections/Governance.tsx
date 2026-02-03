@@ -11,9 +11,9 @@ export default function Governance() {
       detail: 'Médico General. Diplomado en Cirugía Laparoscópica.',
     },
     {
-      label: 'Experiencia Institucional',
-      title: 'Bayer México — Dirección Médica',
-      detail: 'Ex-Directora Médica de Salud Femenina. Experiencia en desarrollo clínico, asuntos regulatorios y estándares de evidencia farmacéutica.',
+      label: 'Liderazgo Profesional',
+      title: 'FEMECOG · COMEGO · FLASOG',
+      detail: 'Activa en comités directivos de FEMECOG y COMEGO. Representante de México ante FLASOG. Conferencista y formadora en México y las Américas.',
     },
   ]
 

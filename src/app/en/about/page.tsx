@@ -67,11 +67,13 @@ export default function AboutPageEN() {
               </div>
 
               <div className="mt-8">
-                <h3 className="mb-6">Professional Memberships</h3>
+                <h3 className="mb-6">Professional Memberships & Leadership</h3>
                 <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">International Urogynecological Association (IUGA)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">American Urogynecologic Society (AUGS)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Colegio Mexicano de Especialistas en Ginecología y Obstetricia (COMEGO)</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">FEMECOG — Mexican Federation of OB/GYN Colleges (active on governing boards)</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">COMEGO — Mexican College of OB/GYN Specialists (active on governing boards)</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">FLASOG — Latin American Federation of OB/GYN Societies (Mexico representative)</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Invited participant in U.S. counterpart societies</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Lecturer and trainer across Mexico and the Americas</li>
                 </ul>
               </div>
             </div>
