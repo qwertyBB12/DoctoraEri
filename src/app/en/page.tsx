@@ -47,7 +47,7 @@ export default function HomePageEN() {
     {
       label: 'Professional Leadership',
       title: 'National & International Medical Societies',
-      detail: 'Active on governing boards of the Mexican Federation of OB/GYN Colleges and the Mexican College of OB/GYN Specialists. Mexico representative to the Latin American Federation of OB/GYN Societies.',
+      detail: 'Board Member and Community Education Committee Coordinator at the Mexican Federation of OB/GYN Colleges. Mexico representative to the Latin American Federation of OB/GYN Societies.',
     },
   ]
 

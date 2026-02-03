@@ -172,9 +172,10 @@ export default function AboutPage() {
                 <h3 className="text-lg font-extrabold text-borgonia mb-3 tracking-[-0.01em]">
                   Federación Mexicana de Colegios de Obstetricia y Ginecología
                 </h3>
-                <p className="text-grafito text-[15px] leading-[1.7]">
-                  Activa en comités directivos
-                </p>
+                <ul className="text-grafito text-[15px] leading-[1.7] space-y-2">
+                  <li>Miembro del Consejo Directivo (2019–2021)</li>
+                  <li>Coordinadora del Comité de Educación Comunitaria</li>
+                </ul>
               </div>
               <div className="bg-borgonia-light rounded-[12px] p-10">
                 <div className="w-14 h-14 rounded-full bg-borgonia/10 flex items-center justify-center mb-6">

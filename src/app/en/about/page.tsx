@@ -170,9 +170,10 @@ export default function AboutPageEN() {
                 <h3 className="text-lg font-extrabold text-borgonia mb-3 tracking-[-0.01em]">
                   Mexican Federation of Colleges of Obstetrics and Gynecology
                 </h3>
-                <p className="text-grafito text-[15px] leading-[1.7]">
-                  Active on governing boards
-                </p>
+                <ul className="text-grafito text-[15px] leading-[1.7] space-y-2">
+                  <li>Board Member (2019–2021)</li>
+                  <li>Coordinator, Community Education Committee</li>
+                </ul>
               </div>
               <div className="bg-borgonia-light rounded-[12px] p-10">
                 <div className="w-14 h-14 rounded-full bg-borgonia/10 flex items-center justify-center mb-6">

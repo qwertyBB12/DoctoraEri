@@ -13,7 +13,7 @@ export default function Governance() {
     {
       label: 'Liderazgo Profesional',
       title: 'Sociedades Médicas Nacionales e Internacionales',
-      detail: 'Activa en comités directivos de la Federación Mexicana de Colegios de Obstetricia y Ginecología y el Colegio Mexicano de Especialistas en Ginecología y Obstetricia. Representante de México ante la Federación Latinoamericana de Sociedades de Obstetricia y Ginecología.',
+      detail: 'Miembro del Consejo Directivo y Coordinadora del Comité de Educación Comunitaria de la Federación Mexicana de Colegios de Obstetricia y Ginecología. Representante de México ante la Federación Latinoamericana de Sociedades de Obstetricia y Ginecología.',
     },
   ]
 
