@@ -6,6 +6,16 @@ import FadeInSection from '@/components/ui/FadeInSection'
 export const metadata = {
   title: 'Dra. Erika Torres Valdez | Urofemina | Urogynecology Mexico City',
   description: 'Urogynecologist. Gynecologic Urology specialist trained at Instituto Nacional de Perinatología. Former Medical Director of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
+  openGraph: {
+    title: 'Dra. Erika Torres Valdez | Urofemina',
+    description: 'Urogynecologist. Female Pelvic Medicine & Reconstructive Surgery specialist. World Trade Center, Mexico City.',
+    locale: 'en_US',
+    images: [{ url: '/og/og-en.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/twitter-en.png'],
+  },
 }
 
 export default function HomePageEN() {

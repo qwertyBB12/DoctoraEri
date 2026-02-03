@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import LanguageSwitcher from './LanguageSwitcher'
+import Logo from '@/components/ui/Logo'
 
 const navLinks = {
   es: [
@@ -51,13 +52,16 @@ export default function Header() {
 
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <Link href={locale === 'en' ? '/en' : '/es'} className="group flex flex-col">
-            <span className="text-xl font-extrabold text-borgonia group-hover:text-salvia transition-colors duration-300 tracking-[-0.02em]">
-              Dra. Erika Torres Valdez
-            </span>
-            <span className="text-xs text-taupe tracking-wide">
-              Urofemina · {locale === 'en' ? 'Urogynecology' : 'Uroginecología'}
-            </span>
+          <Link href={locale === 'en' ? '/en' : '/es'} className="group flex items-center gap-3">
+            <Logo size={40} className="shrink-0 transition-transform duration-300 group-hover:scale-105" />
+            <div className="flex flex-col">
+              <span className="text-xl font-extrabold text-borgonia group-hover:text-salvia transition-colors duration-300 tracking-[-0.02em]">
+                Dra. Erika Torres Valdez
+              </span>
+              <span className="text-xs text-taupe tracking-wide">
+                Urofemina · {locale === 'en' ? 'Urogynecology' : 'Uroginecología'}
+              </span>
+            </div>
           </Link>
 
           <nav className="hidden sm:flex items-center gap-8">

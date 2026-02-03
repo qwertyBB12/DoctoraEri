@@ -14,6 +14,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://doctoraeri.netlify.app'),
   title: 'Urofemina | Dra. Erika Torres Valdez',
   description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. Ex-Directora Médica Bayer México. Ciudad de México.',
   icons: {
@@ -30,6 +31,28 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/site.webmanifest',
+  openGraph: {
+    type: 'website',
+    locale: 'es_MX',
+    alternateLocale: 'en_US',
+    siteName: 'Urofemina',
+    title: 'Dra. Erika Torres Valdez | Urofemina',
+    description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. World Trade Center, Ciudad de México.',
+    images: [
+      {
+        url: '/og/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'Dra. Erika Torres Valdez - Urofemina - Uroginecología',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dra. Erika Torres Valdez | Urofemina',
+    description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina. Ciudad de México.',
+    images: ['/og/twitter-es.png'],
+  },
   other: {
     'msapplication-TileColor': '#6B4B5C',
     'msapplication-config': '/browserconfig.xml',

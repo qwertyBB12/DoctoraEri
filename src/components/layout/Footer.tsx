@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import Logo from '@/components/ui/Logo'
 
 export default function Footer() {
   const pathname = usePathname()
@@ -26,15 +27,18 @@ export default function Footer() {
     <footer className="bg-grafito">
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="text-center md:text-left">
-            <p className="text-sm text-white/70 mb-1">
-              &copy; 2026 Dra. Erika Torres Valdez · Urofemina
-            </p>
-            <p className="text-xs text-white/40">
-              {locale === 'es'
-                ? 'Uroginecología · Medicina Pélvica Femenina y Cirugía Reconstructiva · Ciudad de México'
-                : 'Urogynecology · Female Pelvic Medicine & Reconstructive Surgery · Mexico City'}
-            </p>
+          <div className="flex items-center gap-4 text-center md:text-left">
+            <Logo size={36} className="shrink-0 opacity-60" />
+            <div>
+              <p className="text-sm text-white/70 mb-1">
+                &copy; 2026 Dra. Erika Torres Valdez · Urofemina
+              </p>
+              <p className="text-xs text-white/40">
+                {locale === 'es'
+                  ? 'Uroginecología · Medicina Pélvica Femenina y Cirugía Reconstructiva · Ciudad de México'
+                  : 'Urogynecology · Female Pelvic Medicine & Reconstructive Surgery · Mexico City'}
+              </p>
+            </div>
           </div>
 
           <div className="flex items-center gap-6 text-sm text-white/50">
