@@ -11,24 +11,37 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <main>
-        <section className="py-20 px-6 max-w-[1200px] mx-auto bg-white">
-          <div className="grid md:grid-cols-5 gap-12">
-            <div className="md:col-span-2">
-              <div className="relative w-full aspect-[4/5]">
-                <Image
-                  src="/images/team/dra-erika-torres.jpg"
-                  alt="Dra. Erika Torres Valdez"
-                  fill
-                  className="object-cover rounded-lg shadow-lg"
-                />
+      <main id="main-content" className="pt-20">
+        <section className="bg-white border-b border-perla">
+          <div className="max-w-5xl mx-auto px-6 lg:px-8 py-20 lg:py-28">
+            <div className="max-w-4xl mx-auto">
+
+              <div className="flex items-start justify-between mb-12">
+                <div className="flex-1">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-12 h-[2px] bg-oro" />
+                    <span className="text-xs font-medium tracking-wider text-taupe uppercase">
+                      Sobre Dra. Erika
+                    </span>
+                  </div>
+                  <h1 className="text-borgonia mb-8">
+                    Dra. Erika Torres Valdez
+                  </h1>
+                </div>
+                <div className="hidden lg:block shrink-0 ml-8">
+                  <div className="relative w-28 h-28 rounded-full overflow-hidden ring-2 ring-oro ring-offset-4">
+                    <Image
+                      src="/images/team/dra-erika-torres.jpg"
+                      alt="Dra. Erika Torres Valdez"
+                      fill
+                      className="object-cover"
+                      sizes="112px"
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div className="md:col-span-3">
-              <h1 className="mb-8">Dra. Erika Torres Valdez</h1>
-
-              <div className="space-y-6 text-lg text-grafito">
+              <div className="space-y-6 text-lg text-grafito leading-[1.7] max-w-3xl">
                 <p>
                   Mi formación como Directora Médica en Bayer México me permitió desarrollar
                   una perspectiva integral sobre la salud femenina, combinando rigor
@@ -47,36 +60,143 @@ export default function AboutPage() {
                   cada paciente.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
 
-              <div className="mt-12">
-                <h3 className="mb-6">Formación Médica</h3>
-                <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Médico General, Universidad Anáhuac</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Diplomado en Cirugía Laparoscópica, Universidad Anáhuac</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Especialidad en Ginecología y Obstetricia, Instituto Nacional de Perinatología</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Subespecialidad en Urología Ginecológica, Instituto Nacional de Perinatología</li>
+        <section className="px-6 py-24 md:py-[140px]">
+          <div className="max-w-5xl mx-auto">
+            <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-taupe mb-4">
+              Formación Médica
+            </p>
+            <h2 className="text-borgonia mb-12 max-w-3xl">
+              Trayectoria académica y especialización.
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-borgonia-light rounded-[12px] p-10">
+                <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
+                  Universidad Anáhuac
+                </h3>
+                <ul className="space-y-3 text-grafito text-[15px] leading-[1.7]">
+                  <li className="flex items-start gap-3">
+                    <div className="w-1 h-5 bg-oro mt-1 shrink-0" />
+                    <span>Médico General</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-1 h-5 bg-oro mt-1 shrink-0" />
+                    <span>Diplomado en Cirugía Laparoscópica</span>
+                  </li>
                 </ul>
               </div>
-
-              <div className="mt-8">
-                <h3 className="mb-6">Experiencia Profesional</h3>
-                <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Directora Médica de Salud Femenina, Bayer México</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Profesor Asociado en Urología Ginecológica, Instituto Nacional de Perinatología</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Práctica especializada en uroginecología y medicina pélvica femenina</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Cirujana activa en Hospital Español, Hospital ABC</li>
+              <div className="bg-borgonia-light rounded-[12px] p-10">
+                <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
+                  Instituto Nacional de Perinatología
+                </h3>
+                <ul className="space-y-3 text-grafito text-[15px] leading-[1.7]">
+                  <li className="flex items-start gap-3">
+                    <div className="w-1 h-5 bg-oro mt-1 shrink-0" />
+                    <span>Especialidad en Ginecología y Obstetricia</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-1 h-5 bg-oro mt-1 shrink-0" />
+                    <span>Subespecialidad en Urología Ginecológica</span>
+                  </li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </section>
 
-              <div className="mt-8">
-                <h3 className="mb-6">Membresías y Liderazgo Profesional</h3>
-                <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Federación Mexicana de Colegios de Obstetricia y Ginecología — activa en comités directivos</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Colegio Mexicano de Especialistas en Ginecología y Obstetricia — activa en comités directivos</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Federación Latinoamericana de Sociedades de Obstetricia y Ginecología — representante de México</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Invitada a participar en sociedades médicas de Estados Unidos</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Conferencista y formadora en México y las Américas</li>
-                </ul>
+        <section className="bg-borgonia-light px-6 py-24 md:py-[140px]">
+          <div className="max-w-5xl mx-auto">
+            <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-oro mb-4">
+              Experiencia Profesional
+            </p>
+            <h2 className="text-borgonia mb-12 max-w-3xl">
+              Liderazgo clínico e institucional.
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-[12px] p-10 shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)]">
+                <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
+                  Bayer México
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Directora Médica de Salud Femenina. Experiencia en desarrollo clínico,
+                  asuntos regulatorios y estándares de evidencia farmacéutica.
+                </p>
+              </div>
+              <div className="bg-white rounded-[12px] p-10 shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)]">
+                <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
+                  Instituto Nacional de Perinatología
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Profesor Asociado en Urología Ginecológica. Formación de nuevas
+                  generaciones de especialistas.
+                </p>
+              </div>
+              <div className="bg-white rounded-[12px] p-10 shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)]">
+                <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
+                  Práctica Clínica
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Práctica especializada en uroginecología y medicina pélvica femenina.
+                  Cirujana activa en Hospital Español y Hospital ABC.
+                </p>
+              </div>
+              <div className="bg-white rounded-[12px] p-10 shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)]">
+                <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
+                  Liderazgo Internacional
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Conferencista y formadora en México y las Américas. Invitada a
+                  participar en sociedades médicas de Estados Unidos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="px-6 py-24 md:py-[140px]">
+          <div className="max-w-5xl mx-auto">
+            <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-taupe mb-4">
+              Membresías Profesionales
+            </p>
+            <h2 className="text-borgonia mb-12 max-w-3xl">
+              Activa en las principales sociedades médicas.
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-borgonia-light rounded-[12px] p-10">
+                <div className="w-14 h-14 rounded-full bg-borgonia/10 flex items-center justify-center mb-6">
+                  <span className="text-borgonia font-extrabold text-lg">01</span>
+                </div>
+                <h3 className="text-lg font-extrabold text-borgonia mb-3 tracking-[-0.01em]">
+                  Federación Mexicana de Colegios de Obstetricia y Ginecología
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Activa en comités directivos
+                </p>
+              </div>
+              <div className="bg-borgonia-light rounded-[12px] p-10">
+                <div className="w-14 h-14 rounded-full bg-borgonia/10 flex items-center justify-center mb-6">
+                  <span className="text-borgonia font-extrabold text-lg">02</span>
+                </div>
+                <h3 className="text-lg font-extrabold text-borgonia mb-3 tracking-[-0.01em]">
+                  Colegio Mexicano de Especialistas en Ginecología y Obstetricia
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Activa en comités directivos
+                </p>
+              </div>
+              <div className="bg-borgonia-light rounded-[12px] p-10">
+                <div className="w-14 h-14 rounded-full bg-borgonia/10 flex items-center justify-center mb-6">
+                  <span className="text-borgonia font-extrabold text-lg">03</span>
+                </div>
+                <h3 className="text-lg font-extrabold text-borgonia mb-3 tracking-[-0.01em]">
+                  Federación Latinoamericana de Sociedades de Obstetricia y Ginecología
+                </h3>
+                <p className="text-grafito text-[15px] leading-[1.7]">
+                  Representante de México
+                </p>
               </div>
             </div>
           </div>
