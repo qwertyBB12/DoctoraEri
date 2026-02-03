@@ -1,5 +1,3 @@
-import Button from '../ui/Button'
-
 export default function ClosingStatement() {
   return (
     <section className="relative overflow-hidden bg-grafito px-6 py-[100px] md:py-[140px] compliance-dark">
@@ -19,12 +17,18 @@ export default function ClosingStatement() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button href="/es/contacto" variant="secondary">
+          <a
+            href="/es/contacto"
+            className="inline-flex items-center justify-center font-bold text-lg tracking-wide transition-all duration-300 rounded-sm px-8 py-4 bg-salvia text-white hover:bg-borgonia"
+          >
             Agendar Consulta
-          </Button>
-          <Button href="/es/sobre-dra-erika" variant="ghost">
+          </a>
+          <a
+            href="/es/sobre-dra-erika"
+            className="inline-flex items-center justify-center font-bold text-lg tracking-wide transition-all duration-300 rounded-sm px-8 py-4 text-white border border-white/40 hover:bg-white/10"
+          >
             Conocer a Dra. Erika
-          </Button>
+          </a>
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 mt-16 pt-8 border-t border-white/10 text-[13px] text-perla/60">

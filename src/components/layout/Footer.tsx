@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <p className="text-sm text-perla mb-1">
-              &copy; 2026 Urofemina · Dra. Erika Torres Valdez
+              &copy; 2026 Dra. Erika Torres Valdez · Urofemina
             </p>
             <p className="text-xs text-perla/50">
               Urología Femenina y Medicina del Piso Pélvico · Ciudad de México

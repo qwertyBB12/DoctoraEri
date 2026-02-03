@@ -38,9 +38,12 @@ export default function Header() {
 
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <Link href="/es" className="group">
-            <span className="text-2xl font-extrabold text-borgonia group-hover:text-salvia transition-colors duration-300 tracking-[-0.02em]">
-              Urofemina
+          <Link href="/es" className="group flex flex-col">
+            <span className="text-xl font-extrabold text-borgonia group-hover:text-salvia transition-colors duration-300 tracking-[-0.02em]">
+              Dra. Erika Torres Valdez
+            </span>
+            <span className="text-xs text-taupe tracking-wide">
+              Urofemina · Urología Femenina
             </span>
           </Link>
 
