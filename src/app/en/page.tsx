@@ -5,7 +5,7 @@ import FadeInSection from '@/components/ui/FadeInSection'
 
 export const metadata = {
   title: 'Dra. Erika Torres Valdez | Urofemina | Urogynecology Mexico City',
-  description: 'Urogynecologist. Gynecologic Urology specialist trained at Instituto Nacional de Perinatología. Former Medical Director of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
+  description: 'Urogynecologist specializing in urinary incontinence, pelvic organ prolapse, and pelvic floor disorders. Instituto Nacional de Perinatología trained. World Trade Center, Mexico City.',
   openGraph: {
     title: 'Dra. Erika Torres Valdez | Urofemina',
     description: 'Urogynecologist. Female Pelvic Medicine & Reconstructive Surgery specialist. World Trade Center, Mexico City.',
@@ -19,35 +19,60 @@ export const metadata = {
 }
 
 export default function HomePageEN() {
-  const values = [
+  const howWeWork = [
     {
-      title: 'Precision Diagnostics',
-      body: 'Comprehensive clinical evaluation combining detailed history, advanced urodynamic studies, and international diagnostic protocols to identify the exact cause of each condition.',
+      title: 'We Listen First',
+      body: 'Every consultation starts by hearing your complete story — your symptoms, how long you\'ve had them, how they affect your life. That\'s the only way to reach the right diagnosis.',
     },
     {
-      title: 'Clinical Evidence',
-      body: 'Every therapeutic decision is grounded in current medical literature, IUGA/AUGS clinical practice guidelines, and international standards of care.',
+      title: 'Precise Diagnosis',
+      body: 'We use urodynamic studies and international protocols to identify exactly what\'s causing your symptoms. Good treatment starts with good diagnosis.',
     },
     {
-      title: 'Individualized Treatment',
-      body: 'Personalized plans that consider severity, goals, preferences, and life context — from conservative options to reconstructive surgery.',
+      title: 'Treatment Tailored to You',
+      body: 'Not every patient needs surgery. We explore conservative options like physical therapy and medication first. If surgery is needed, we use minimally invasive techniques.',
     },
   ]
 
-  const services = [
-    { title: 'Urinary Incontinence', description: 'Comprehensive diagnostic evaluation and evidence-based specialized treatment for stress, urgency, and mixed incontinence.' },
-    { title: 'Pelvic Organ Prolapse', description: 'Individualized management through specialized physiotherapy, pessaries, or minimally invasive surgical procedures.' },
-    { title: 'Pelvic Floor Dysfunction', description: 'Comprehensive approach to chronic pelvic pain, muscle hypertonicity, and multidisciplinary coordination with specialized physiotherapy.' },
-    { title: 'Sexual & Urogenital Health', description: 'Evidence-based treatment for dyspareunia, vulvovaginal atrophy, and genitourinary syndrome of menopause.' },
-    { title: 'Pelvic Reconstructive Surgery', description: 'Advanced laparoscopic and reconstructive techniques with accelerated recovery protocols and specialized follow-up.' },
-    { title: 'Preventive Evaluation', description: 'Specialized pre and postpartum evaluation, preventive counseling based on risk factors, and individualized screening.' },
+  const conditions = [
+    {
+      title: 'Urinary Incontinence',
+      subtitle: 'Leaking urine when you laugh, cough, sneeze, or exercise',
+      description: 'There are different types of incontinence and each has specific treatments. With a complete evaluation, we identify the exact cause and design a plan to restore your control and confidence.',
+      featured: true,
+    },
+    {
+      title: 'Pelvic Organ Prolapse',
+      subtitle: 'Feeling of bulge, pressure, or "something falling out"',
+      description: 'Prolapse happens when pelvic organs descend from their normal position. Options range from physical therapy and pessaries to minimally invasive surgery.',
+    },
+    {
+      title: 'Overactive Bladder',
+      subtitle: 'Sudden urge to urinate, going to the bathroom too frequently',
+      description: 'The urgent need to urinate that interrupts your day (or sleep) has solutions. We treat with lifestyle changes, medication, or advanced therapies.',
+    },
+    {
+      title: 'Pelvic Pain & Painful Intercourse',
+      subtitle: 'Pain during sex or chronic pelvic pain',
+      description: 'Intimate pain is not normal and you don\'t have to accept it. We evaluate physical causes and coordinate comprehensive treatment.',
+    },
+    {
+      title: 'Recurrent UTIs',
+      subtitle: 'Infections that keep coming back',
+      description: 'If you have more than 2-3 infections per year, you need specialized evaluation to identify risk factors and prevent future episodes.',
+    },
+    {
+      title: 'Menopause Symptoms',
+      subtitle: 'Vaginal dryness, urinary discomfort, intimate changes',
+      description: 'Hormonal changes affect urogenital health. We offer treatments that relieve symptoms and improve quality of life during this stage.',
+    },
   ]
 
   const credentials = [
     {
       label: 'Specialized Training',
       title: 'Instituto Nacional de Perinatología',
-      detail: 'Obstetrics and Gynecology residency. Gynecologic Urology subspecialty. Associate Professor in Gynecologic Urology.',
+      detail: 'Obstetrics and Gynecology residency. Gynecologic Urology subspecialty.',
     },
     {
       label: 'Medical Education',
@@ -55,9 +80,9 @@ export default function HomePageEN() {
       detail: 'Medical Degree. Diploma in Laparoscopic Surgery.',
     },
     {
-      label: 'Professional Leadership',
-      title: 'National & International Medical Societies',
-      detail: 'Board Member and Community Education Committee Coordinator at the Mexican Federation of OB/GYN Colleges. Mexico representative to the Latin American Federation of OB/GYN Societies.',
+      label: 'Industry Experience',
+      title: 'Former Medical Director',
+      detail: 'Women\'s Health Division, Bayer Mexico. Bridging clinical practice with therapeutic innovation.',
     },
   ]
 
@@ -66,63 +91,70 @@ export default function HomePageEN() {
       <Header />
       <main id="main-content" className="pt-20 landing-sections">
 
-        {/* Hero */}
+        {/* Hero - Patient-focused */}
         <section className="bg-white border-b border-perla">
           <div className="max-w-5xl mx-auto px-6 lg:px-8 py-20 lg:py-28">
             <div className="max-w-4xl mx-auto">
-              <div className="flex items-start justify-between mb-12">
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-6">
-                    <div className="w-12 h-[2px] bg-oro" />
-                    <span className="text-xs font-medium tracking-wider text-taupe uppercase">
-                      Urogynecology · Female Pelvic Medicine · Mexico City
-                    </span>
-                  </div>
-                  <h1 className="text-borgonia mb-8">
-                    Dra. Erika Torres Valdez
-                  </h1>
+
+              <div className="mb-12">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-12 h-[2px] bg-oro" />
+                  <span className="text-xs font-medium tracking-wider text-taupe uppercase">
+                    Urogynecology · Mexico City
+                  </span>
                 </div>
-                <div className="hidden lg:block shrink-0 ml-8">
-                  <div className="relative w-28 h-28 rounded-full overflow-hidden ring-2 ring-oro ring-offset-4">
-                    <Image
-                      src="/images/team/dra-erika-torres.jpg"
-                      alt="Dra. Erika Torres Valdez"
-                      fill
-                      className="object-cover"
-                      sizes="112px"
-                    />
+
+                <h1 className="text-borgonia mb-6">
+                  You don&apos;t have to live like this.
+                </h1>
+
+                <p className="text-xl text-grafito leading-relaxed max-w-2xl mb-8">
+                  If you experience urine leakage when you laugh, cough, or exercise;
+                  a feeling of bulge or pressure in your vaginal area; sudden urgency to urinate;
+                  or intimate discomfort affecting your daily life — <strong className="text-borgonia">there are solutions,
+                  and you&apos;re not alone.</strong>
+                </p>
+
+                <p className="text-lg text-grafito/80 leading-relaxed max-w-2xl">
+                  These symptoms are more common than people talk about, and with proper diagnosis
+                  and treatment, most patients recover their quality of life.
+                </p>
+              </div>
+
+              {/* Doctor introduction */}
+              <div className="bg-borgonia-light rounded-[12px] p-8 md:p-10 mb-10">
+                <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-8">
+                  <div className="shrink-0">
+                    <div className="relative w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden ring-2 ring-oro ring-offset-4 ring-offset-borgonia-light">
+                      <Image
+                        src="/images/team/dra-erika-torres.jpg"
+                        alt="Dra. Erika Torres Valdez"
+                        fill
+                        className="object-cover"
+                        sizes="112px"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-borgonia mb-3">
+                      Dra. Erika Torres Valdez
+                    </h2>
+                    <p className="text-grafito leading-relaxed mb-4">
+                      <strong className="text-borgonia">Urogynecologist</strong> — specializing in diagnosis
+                      and treatment of female pelvic floor conditions: urinary incontinence,
+                      prolapse, pelvic pain, and intimate health.
+                    </p>
+                    <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-taupe">
+                      <span>Instituto Nacional de Perinatología</span>
+                      <span className="hidden sm:inline">·</span>
+                      <span>Former Medical Director, Bayer</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className="space-y-5 mb-12 max-w-3xl">
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Urogynecologist</strong> — Gynecologic Urology Specialist
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Instituto Nacional de Perinatología</strong> — OB/GYN, Gynecologic Urology
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Former Medical Director of Women&apos;s Health</strong>, Bayer Mexico
-                  </p>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Urofemina</strong> · World Trade Center, Mexico City
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-6">
+              {/* CTA */}
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
                 <a
                   href="/en/contact"
                   className="inline-block px-10 py-4 bg-borgonia text-white font-semibold text-base rounded-sm hover:-translate-y-0.5 transition-all duration-300"
@@ -130,32 +162,37 @@ export default function HomePageEN() {
                   Schedule a Consultation
                 </a>
                 <div className="text-sm text-taupe">
-                  <p className="font-medium">In-Person Consultations</p>
-                  <p>Español · English</p>
+                  <p className="font-medium">World Trade Center, CDMX</p>
+                  <p>Consultations in Spanish & English</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Practice Overview */}
+        {/* How We Work */}
         <FadeInSection>
           <section className="px-6 py-24 md:py-[140px]">
             <div className="max-w-5xl mx-auto">
               <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-taupe mb-4">
-                Practice Philosophy
+                How We Work
               </p>
               <h2 className="text-borgonia mb-6 max-w-3xl">
-                Urogynecology with scientific rigor and clinical sensitivity.
+                Patient-centered medical care.
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
-                The practice integrates specialized training in gynecology, obstetrics,
-                and gynecologic urology with pharmaceutical medical directorship experience —
-                a unique perspective connecting therapeutic innovation with direct clinical practice.
+                Many women spend years with symptoms that affect their confidence and quality of life,
+                not knowing effective treatments exist. My commitment is to provide a space
+                where you can speak openly, receive a clear diagnosis, and find
+                the solution that best fits your life.
               </p>
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
-                {values.map((v, i) => (
+                {howWeWork.map((v, i) => (
                   <div key={i} className="bg-borgonia-light rounded-[12px] p-10">
+                    <div className="w-12 h-12 rounded-full bg-borgonia/10 flex items-center justify-center mb-6">
+                      <span className="text-borgonia font-extrabold text-lg">{String(i + 1).padStart(2, '0')}</span>
+                    </div>
                     <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
                       {v.title}
                     </h3>
@@ -167,47 +204,42 @@ export default function HomePageEN() {
           </section>
         </FadeInSection>
 
-        {/* Services */}
+        {/* Conditions */}
         <FadeInSection>
           <section className="px-6 py-24 md:py-[140px]">
             <div className="max-w-5xl mx-auto">
               <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-taupe mb-4">
-                Areas of Specialization
+                Conditions We Treat
               </p>
               <h2 className="text-borgonia mb-6 max-w-3xl">
-                Specialized care across every dimension of female pelvic health.
+                Do any of these symptoms sound familiar?
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
-                From diagnostic evaluation to advanced surgical procedures, each area
-                of practice is grounded in comprehensive urogynecological training,
-                international protocols, and direct clinical experience.
+                These problems are far more common than people realize — and the good news
+                is that most have very effective treatments. The first step is talking
+                to a specialist.
               </p>
 
+              {/* Featured */}
               <div className="bg-white shadow-[0_2px_8px_rgba(61,55,53,0.08),0_16px_48px_rgba(61,55,53,0.12)] rounded-[12px] p-12 md:p-[60px] mb-10">
-                <h3 className="font-extrabold text-[28px] md:text-[32px] text-borgonia mb-6 tracking-[-0.01em]">
-                  {services[0].title}
+                <p className="text-sm font-medium text-oro mb-3">Most common condition</p>
+                <h3 className="font-extrabold text-[28px] md:text-[32px] text-borgonia mb-2 tracking-[-0.01em]">
+                  {conditions[0].title}
                 </h3>
+                <p className="text-lg text-borgonia/70 mb-6">
+                  {conditions[0].subtitle}
+                </p>
                 <p className="text-lg text-grafito leading-[1.7] max-w-[75ch]">
-                  {services[0].description} Urinary incontinence significantly impacts
-                  quality of life. A comprehensive evaluation identifies the exact type
-                  and enables a therapeutic plan that restores function and confidence.
+                  {conditions[0].description}
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {services.slice(1, 4).map((s, i) => (
-                  <div key={i} className="bg-white shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)] rounded-[12px] p-10">
-                    <h3 className="font-extrabold text-xl text-borgonia mb-4 tracking-[-0.01em]">{s.title}</h3>
-                    <p className="text-grafito leading-[1.7] text-[15px]">{s.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-                {services.slice(4).map((s, i) => (
-                  <div key={i} className="bg-white shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)] rounded-[12px] p-10">
-                    <h3 className="font-extrabold text-xl text-borgonia mb-4 tracking-[-0.01em]">{s.title}</h3>
-                    <p className="text-grafito leading-[1.7] text-[15px]">{s.description}</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {conditions.slice(1).map((c, i) => (
+                  <div key={i} className="bg-white shadow-[0_1px_3px_rgba(61,55,53,0.06),0_8px_24px_rgba(61,55,53,0.04)] rounded-[12px] p-8">
+                    <h3 className="font-extrabold text-xl text-borgonia mb-2 tracking-[-0.01em]">{c.title}</h3>
+                    <p className="text-sm text-oro mb-4">{c.subtitle}</p>
+                    <p className="text-grafito leading-[1.7] text-[15px]">{c.description}</p>
                   </div>
                 ))}
               </div>
@@ -220,14 +252,15 @@ export default function HomePageEN() {
           <section className="bg-borgonia-light px-6 py-[100px] md:py-[140px]">
             <div className="max-w-5xl mx-auto">
               <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-oro mb-4">
-                Clinical Credentials
+                Training & Credentials
               </p>
               <h2 className="text-borgonia mb-6 max-w-3xl">
-                Trained for excellence. Prepared for complexity.
+                Specialized training you can trust.
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
-                Each credential represents a commitment to clinical standards
-                that prioritize safety, evidence, and measurable outcomes.
+                Urogynecology requires years of specialized training beyond general gynecology.
+                My background combines clinical expertise with experience in medical leadership
+                and therapeutic innovation.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {credentials.map((c, i) => (
@@ -250,15 +283,16 @@ export default function HomePageEN() {
           <section className="bg-borgonia px-6 py-[100px] md:py-[140px]">
             <div className="max-w-4xl mx-auto text-center">
               <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-oro mb-8">
-                First Consultation
+                Take the First Step
               </p>
               <h2 className="text-white mb-8 max-w-3xl mx-auto">
-                The first step is a conversation.
+                You don&apos;t have to keep living with these symptoms.
               </h2>
               <p className="text-lg text-white/80 leading-[1.7] max-w-[65ch] mx-auto mb-12">
-                The initial consultation includes a detailed medical history, diagnostic
-                evaluation when appropriate, and development of a personalized treatment
-                plan based on your symptoms, goals, and preferences.
+                The initial consultation is a confidential conversation where we&apos;ll discuss
+                what you&apos;re experiencing, answer your questions, and explain your treatment options.
+                No pressure, no judgment — just clear information so you can make
+                the best decision for your health.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
@@ -268,10 +302,10 @@ export default function HomePageEN() {
                   Schedule a Consultation
                 </a>
                 <a
-                  href="/en/about"
+                  href="/en/faq"
                   className="inline-flex items-center justify-center font-bold text-lg tracking-wide transition-all duration-300 rounded-sm px-8 py-4 text-white border-2 border-white/60 hover:bg-white hover:text-borgonia"
                 >
-                  About Dra. Erika
+                  Frequently Asked Questions
                 </a>
               </div>
               <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 mt-16 pt-8 border-t border-white/20 text-[13px] text-white/60">

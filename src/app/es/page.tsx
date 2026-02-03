@@ -9,10 +9,10 @@ import FadeInSection from '@/components/ui/FadeInSection'
 
 export const metadata = {
   title: 'Urofemina | Dra. Erika Torres Valdez | Uroginecología CDMX',
-  description: 'Uroginecóloga. Ginecóloga y Obstetra con formación en Urología y Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS). Ex-Directora Médica Bayer México.',
+  description: 'Uroginecóloga en Ciudad de México. Tratamiento de incontinencia urinaria, prolapso, vejiga hiperactiva, dolor pélvico e infecciones urinarias recurrentes. Instituto Nacional de Perinatología. World Trade Center CDMX.',
   openGraph: {
     title: 'Dra. Erika Torres Valdez | Urofemina',
-    description: 'Uroginecóloga. Especialista en Medicina Pélvica Femenina y Cirugía Reconstructiva. World Trade Center, Ciudad de México.',
+    description: 'Uroginecóloga especialista en incontinencia urinaria, prolapso y salud pélvica femenina. World Trade Center, Ciudad de México.',
     locale: 'es_MX',
     images: [{ url: '/og/og-es.png', width: 1200, height: 630 }],
   },
