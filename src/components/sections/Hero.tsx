@@ -37,13 +37,13 @@ export default function Hero() {
             <div className="flex items-start gap-4">
               <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
               <p className="text-lg text-grafito leading-relaxed">
-                <strong className="font-semibold text-borgonia">Uroginecóloga</strong> — Ginecóloga y Obstetra con formación avanzada en Urología
+                <strong className="font-semibold text-borgonia">Uroginecóloga</strong> — Especialista en Urología Ginecológica
               </p>
             </div>
             <div className="flex items-start gap-4">
               <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
               <p className="text-lg text-grafito leading-relaxed">
-                <strong className="font-semibold text-borgonia">Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva</strong> (FPMRS)
+                <strong className="font-semibold text-borgonia">Instituto Nacional de Perinatología</strong> — Ginecología y Obstetricia, Urología Ginecológica
               </p>
             </div>
             <div className="flex items-start gap-4">

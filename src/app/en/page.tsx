@@ -5,7 +5,7 @@ import FadeInSection from '@/components/ui/FadeInSection'
 
 export const metadata = {
   title: 'Dra. Erika Torres Valdez | Urofemina | Urogynecology Mexico City',
-  description: 'Urogynecologist. OB/GYN with advanced urology training and fellowship in Female Pelvic Medicine and Reconstructive Surgery (FPMRS). Former Medical Director of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
+  description: 'Urogynecologist. Gynecologic Urology specialist trained at Instituto Nacional de Perinatología. Former Medical Director of Women\'s Health, Bayer Mexico. World Trade Center, Mexico City.',
 }
 
 export default function HomePageEN() {
@@ -16,7 +16,7 @@ export default function HomePageEN() {
     },
     {
       title: 'Clinical Evidence',
-      body: 'Every therapeutic decision is grounded in current medical literature, IUGA/AUGS/ACOG clinical practice guidelines, and international standards of care.',
+      body: 'Every therapeutic decision is grounded in current medical literature, IUGA/AUGS clinical practice guidelines, and international standards of care.',
     },
     {
       title: 'Individualized Treatment',
@@ -35,19 +35,19 @@ export default function HomePageEN() {
 
   const credentials = [
     {
-      label: 'Training',
-      title: 'Urogynecologist — FPMRS',
-      detail: 'Obstetrician/Gynecologist with advanced urology training and Fellowship in Female Pelvic Medicine and Reconstructive Surgery (FPMRS).',
+      label: 'Specialized Training',
+      title: 'Instituto Nacional de Perinatología',
+      detail: 'Obstetrics and Gynecology residency. Gynecologic Urology subspecialty. Associate Professor in Gynecologic Urology.',
+    },
+    {
+      label: 'Medical Education',
+      title: 'Universidad Anáhuac',
+      detail: 'Medical Degree. Diploma in Laparoscopic Surgery.',
     },
     {
       label: 'Institutional Experience',
       title: 'Bayer Mexico — Medical Director',
       detail: 'Former Medical Director of Women\'s Health. Experience in clinical development, regulatory affairs, and pharmaceutical evidence standards.',
-    },
-    {
-      label: 'International Affiliations',
-      title: 'IUGA · AUGS · ACOG · COMEGO',
-      detail: 'Active memberships in the leading international societies in urogynecology, obstetrics, and gynecology.',
     },
   ]
 
@@ -89,13 +89,13 @@ export default function HomePageEN() {
                 <div className="flex items-start gap-4">
                   <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
                   <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Urogynecologist</strong> — OB/GYN with advanced urology training
+                    <strong className="font-semibold text-borgonia">Urogynecologist</strong> — Gynecologic Urology Specialist
                   </p>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
                   <p className="text-lg text-grafito leading-relaxed">
-                    <strong className="font-semibold text-borgonia">Fellowship in Female Pelvic Medicine &amp; Reconstructive Surgery</strong> (FPMRS)
+                    <strong className="font-semibold text-borgonia">Instituto Nacional de Perinatología</strong> — OB/GYN, Gynecologic Urology
                   </p>
                 </div>
                 <div className="flex items-start gap-4">
@@ -139,9 +139,8 @@ export default function HomePageEN() {
                 Urogynecology with scientific rigor and clinical sensitivity.
               </h2>
               <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
-                The practice integrates training in gynecology, obstetrics, and urology
-                with an advanced fellowship in female pelvic medicine and reconstructive
-                surgery, combined with pharmaceutical medical directorship experience —
+                The practice integrates specialized training in gynecology, obstetrics,
+                and gynecologic urology with pharmaceutical medical directorship experience —
                 a unique perspective connecting therapeutic innovation with direct clinical practice.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">

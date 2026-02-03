@@ -36,8 +36,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   La uroginecología requiere una aproximación multidisciplinaria que integre
-                  conocimiento ginecológico, obstétrico y urológico con entrenamiento avanzado
-                  en medicina pélvica femenina y cirugía reconstructiva — comprendiendo la
+                  conocimiento ginecológico, obstétrico y urológico — comprendiendo la
                   fisiopatología compleja y los factores que afectan la calidad de vida
                   de las pacientes.
                 </p>
@@ -52,10 +51,10 @@ export default function AboutPage() {
               <div className="mt-12">
                 <h3 className="mb-6">Formación Médica</h3>
                 <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Médico Cirujano, Universidad Nacional Autónoma de México</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Especialidad en Ginecología y Obstetricia</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Formación avanzada en Urología</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS)</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Médico General, Universidad Anáhuac</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Diplomado en Cirugía Laparoscópica, Universidad Anáhuac</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Especialidad en Ginecología y Obstetricia, Instituto Nacional de Perinatología</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Subespecialidad en Urología Ginecológica, Instituto Nacional de Perinatología</li>
                 </ul>
               </div>
 
@@ -63,6 +62,7 @@ export default function AboutPage() {
                 <h3 className="mb-6">Experiencia Profesional</h3>
                 <ul className="space-y-3 text-grafito pl-5">
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Directora Médica de Salud Femenina, Bayer México</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Profesor Asociado en Urología Ginecológica, Instituto Nacional de Perinatología</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Práctica especializada en uroginecología y medicina pélvica femenina</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Cirujana activa en Hospital Español, Hospital ABC</li>
                 </ul>
@@ -73,7 +73,6 @@ export default function AboutPage() {
                 <ul className="space-y-3 text-grafito pl-5">
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">International Urogynecological Association (IUGA)</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">American Urogynecologic Society (AUGS)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">American College of Obstetricians and Gynecologists (ACOG)</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Colegio Mexicano de Especialistas en Ginecología y Obstetricia (COMEGO)</li>
                 </ul>
               </div>

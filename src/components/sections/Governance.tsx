@@ -1,19 +1,19 @@
 export default function Governance() {
   const credentials = [
     {
-      label: 'Formación',
-      title: 'Uroginecóloga — FPMRS',
-      detail: 'Ginecóloga y Obstetra con formación avanzada en Urología y Fellowship en Medicina Pélvica Femenina y Cirugía Reconstructiva (FPMRS).',
+      label: 'Formación Especializada',
+      title: 'Instituto Nacional de Perinatología',
+      detail: 'Especialidad en Ginecología y Obstetricia. Subespecialidad en Urología Ginecológica. Profesor Asociado en Urología Ginecológica.',
+    },
+    {
+      label: 'Formación Médica',
+      title: 'Universidad Anáhuac',
+      detail: 'Médico General. Diplomado en Cirugía Laparoscópica.',
     },
     {
       label: 'Experiencia Institucional',
       title: 'Bayer México — Dirección Médica',
       detail: 'Ex-Directora Médica de Salud Femenina. Experiencia en desarrollo clínico, asuntos regulatorios y estándares de evidencia farmacéutica.',
-    },
-    {
-      label: 'Afiliaciones Internacionales',
-      title: 'IUGA · AUGS · ACOG · COMEGO',
-      detail: 'Membresías activas en las principales sociedades internacionales de uroginecología, ginecología y obstetricia.',
     },
   ]
 
