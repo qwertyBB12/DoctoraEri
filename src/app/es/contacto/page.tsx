@@ -75,6 +75,7 @@ export default function ContactPage() {
                     <input
                       type="text"
                       id="nombre"
+                      name="nombre"
                       required
                       className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
                     />
@@ -86,6 +87,7 @@ export default function ContactPage() {
                     <input
                       type="number"
                       id="edad"
+                      name="edad"
                       required
                       min={18}
                       className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
@@ -98,6 +100,7 @@ export default function ContactPage() {
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       required
                       className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
                     />
@@ -109,6 +112,7 @@ export default function ContactPage() {
                     <input
                       type="tel"
                       id="telefono"
+                      name="telefono"
                       required
                       placeholder="+52 55 XXXX XXXX"
                       className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
@@ -120,6 +124,7 @@ export default function ContactPage() {
                     </label>
                     <textarea
                       id="motivo"
+                      name="motivo"
                       required
                       rows={4}
                       placeholder="Describa brevemente el motivo de su consulta. No incluya información médica detallada."
