@@ -12,8 +12,8 @@ export default function Governance() {
     },
     {
       label: 'Liderazgo Profesional',
-      title: 'FEMECOG · COMEGO · FLASOG',
-      detail: 'Activa en comités directivos de FEMECOG y COMEGO. Representante de México ante FLASOG. Conferencista y formadora en México y las Américas.',
+      title: 'Sociedades Médicas Nacionales e Internacionales',
+      detail: 'Activa en comités directivos de la Federación Mexicana de Colegios de Obstetricia y Ginecología y el Colegio Mexicano de Especialistas en Ginecología y Obstetricia. Representante de México ante la Federación Latinoamericana de Sociedades de Obstetricia y Ginecología.',
     },
   ]
 

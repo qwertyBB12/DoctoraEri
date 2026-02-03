@@ -71,10 +71,10 @@ export default function AboutPage() {
               <div className="mt-8">
                 <h3 className="mb-6">Membresías y Liderazgo Profesional</h3>
                 <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">FEMECOG — Federación Mexicana de Colegios de Obstetricia y Ginecología (activa en comités directivos)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">COMEGO — Colegio Mexicano de Especialistas en Ginecología y Obstetricia (activa en comités directivos)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">FLASOG — Federación Latinoamericana de Sociedades de Obstetricia y Ginecología (representante de México)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Invitada a participar en sociedades de EE.UU. homólogas</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Federación Mexicana de Colegios de Obstetricia y Ginecología — activa en comités directivos</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Colegio Mexicano de Especialistas en Ginecología y Obstetricia — activa en comités directivos</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Federación Latinoamericana de Sociedades de Obstetricia y Ginecología — representante de México</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Invitada a participar en sociedades médicas de Estados Unidos</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Conferencista y formadora en México y las Américas</li>
                 </ul>
               </div>

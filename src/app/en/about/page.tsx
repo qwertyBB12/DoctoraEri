@@ -69,10 +69,10 @@ export default function AboutPageEN() {
               <div className="mt-8">
                 <h3 className="mb-6">Professional Memberships & Leadership</h3>
                 <ul className="space-y-3 text-grafito pl-5">
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">FEMECOG — Mexican Federation of OB/GYN Colleges (active on governing boards)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">COMEGO — Mexican College of OB/GYN Specialists (active on governing boards)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">FLASOG — Latin American Federation of OB/GYN Societies (Mexico representative)</li>
-                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Invited participant in U.S. counterpart societies</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Mexican Federation of Colleges of Obstetrics and Gynecology — active on governing boards</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Mexican College of Specialists in Gynecology and Obstetrics — active on governing boards</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Latin American Federation of Societies of Obstetrics and Gynecology — Mexico representative</li>
+                  <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Invited participant in United States medical societies</li>
                   <li className="relative before:content-['•'] before:absolute before:-left-5 before:text-salvia">Lecturer and trainer across Mexico and the Americas</li>
                 </ul>
               </div>

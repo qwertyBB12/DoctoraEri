@@ -46,8 +46,8 @@ export default function HomePageEN() {
     },
     {
       label: 'Professional Leadership',
-      title: 'FEMECOG · COMEGO · FLASOG',
-      detail: 'Active on governing boards of FEMECOG and COMEGO. Mexico representative to FLASOG. Lecturer and trainer across Mexico and the Americas.',
+      title: 'National & International Medical Societies',
+      detail: 'Active on governing boards of the Mexican Federation of OB/GYN Colleges and the Mexican College of OB/GYN Specialists. Mexico representative to the Latin American Federation of OB/GYN Societies.',
     },
   ]
 
