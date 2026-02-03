@@ -43,8 +43,7 @@ export default function ContactPageEN() {
                     <h4 className="font-semibold text-borgonia mb-2">Contact</h4>
                     <p className="text-sm">
                       Phone: 55 6465 5364<br />
-                      WhatsApp: 55 6465 5364<br />
-                      Email: contacto@doctoraeri.com
+                      WhatsApp: 55 6465 5364
                     </p>
                   </div>
                   <div>
@@ -56,7 +55,19 @@ export default function ContactPageEN() {
 
               <div>
                 <h3 className="mb-6 text-borgonia">Consultation Request</h3>
-                <form className="space-y-4">
+                <form
+                  name="consultation-en"
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
+                  className="space-y-4"
+                >
+                  <input type="hidden" name="form-name" value="consultation-en" />
+                  <p className="hidden">
+                    <label>
+                      Don&apos;t fill this out: <input name="bot-field" />
+                    </label>
+                  </p>
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-grafito mb-2">
                       Full name *

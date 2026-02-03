@@ -43,8 +43,7 @@ export default function ContactPage() {
                     <h4 className="font-semibold text-borgonia mb-2">Contacto</h4>
                     <p className="text-sm">
                       Teléfono: 55 6465 5364<br />
-                      WhatsApp: 55 6465 5364<br />
-                      Email: contacto@doctoraeri.com
+                      WhatsApp: 55 6465 5364
                     </p>
                   </div>
                   <div>
@@ -56,7 +55,19 @@ export default function ContactPage() {
 
               <div>
                 <h3 className="mb-6 text-borgonia">Solicitud de Consulta</h3>
-                <form className="space-y-4">
+                <form
+                  name="consulta-es"
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
+                  className="space-y-4"
+                >
+                  <input type="hidden" name="form-name" value="consulta-es" />
+                  <p className="hidden">
+                    <label>
+                      No llenar: <input name="bot-field" />
+                    </label>
+                  </p>
                   <div>
                     <label htmlFor="nombre" className="block text-sm font-medium text-grafito mb-2">
                       Nombre completo *
