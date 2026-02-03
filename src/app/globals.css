@@ -9,12 +9,14 @@
   --color-taupe: #8B8380;
   --color-perla: #DDD8D3;
   --color-crema: #FAF7F3;
+  --color-surface: #FFFFFF;
+  --color-borgonia-light: #F5F0F2;
 
   --font-inter: var(--font-inter-var);
 }
 
 /* ========================================
-   BASE TYPOGRAPHY - Maximum authority
+   BASE — Clinical precision
    ======================================== */
 
 html {
@@ -26,28 +28,42 @@ body {
   font-family: var(--font-inter), system-ui, sans-serif;
   background-color: var(--color-crema);
   color: var(--color-grafito);
-  line-height: 1.8;
+  line-height: 1.7;
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
   color: var(--color-borgonia);
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  font-weight: 800;
 }
 
 h1 { font-size: 3rem; }
-h2 { font-size: 2.25rem; margin-bottom: 1.5rem; }
-h3 { font-size: 1.5rem; margin-bottom: 1rem; }
-h4 { font-size: 1.25rem; color: var(--color-salvia); }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; color: var(--color-salvia); font-weight: 700; }
+
+@media (min-width: 640px) {
+  h1 { font-size: 3.75rem; }
+  h2 { font-size: 3rem; }
+}
+
+@media (min-width: 768px) {
+  h1 { font-size: 4.5rem; }
+  h2 { font-size: 3.5rem; }
+  h3 { font-size: 1.875rem; }
+}
+
+@media (min-width: 1024px) {
+  h1 { font-size: 5.5rem; }
+}
 
 p {
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
-  max-width: 70ch;
+  line-height: 1.7;
+  max-width: 75ch;
   color: var(--color-grafito);
 }
 
@@ -62,51 +78,41 @@ a:hover {
   color: var(--color-salvia);
 }
 
-@media (min-width: 768px) {
-  h1 { font-size: 3.75rem; }
-  h2 { font-size: 3rem; }
-  h3 { font-size: 1.875rem; }
-  h4 { font-size: 1.5rem; }
-  p { font-size: 1.125rem; }
+/* ========================================
+   FOCUS — Accessibility
+   ======================================== */
+
+*:focus-visible {
+  outline: 3px solid var(--color-salvia);
+  outline-offset: 2px;
 }
 
 /* ========================================
-   SPACING SYSTEM - Generous rhythm
+   SCROLL ANIMATIONS — IntersectionObserver
    ======================================== */
 
-.section-spacing-sm {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-spacing {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.section-spacing-lg {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+.fade-in-section.is-visible > * {
+  animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
 }
 
-@media (max-width: 1024px) {
-  .section-spacing {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  .section-spacing-lg {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-.section-white { background-color: #FFFFFF; }
-.section-crema { background-color: #FAF7F3; }
-.section-gradient { background: linear-gradient(180deg, #FAF7F3 0%, #FFFFFF 100%); }
-
-/* ========================================
-   ANIMATIONS - Subtle sophistication
-   ======================================== */
+.fade-in-section.is-visible > *:nth-child(1) { animation-delay: 0.1s; }
+.fade-in-section.is-visible > *:nth-child(2) { animation-delay: 0.2s; }
+.fade-in-section.is-visible > *:nth-child(3) { animation-delay: 0.3s; }
+.fade-in-section.is-visible > *:nth-child(4) { animation-delay: 0.4s; }
+.fade-in-section.is-visible > *:nth-child(5) { animation-delay: 0.5s; }
+.fade-in-section.is-visible > *:nth-child(6) { animation-delay: 0.6s; }
 
 @keyframes fadeInUp {
   from {
@@ -119,27 +125,62 @@ a:hover {
   }
 }
 
-.animate-fade-in-up {
-  animation: fadeInUp 0.6s ease-out forwards;
+/* ========================================
+   LANDING SECTIONS — Vertical rhythm
+   ======================================== */
+
+.landing-sections > .fade-in-section + .fade-in-section {
+  margin-top: 160px;
 }
 
-.stagger-children > * {
-  opacity: 0;
-  animation: fadeInUp 0.6s ease-out forwards;
+.landing-sections > :first-child + .fade-in-section {
+  margin-top: 120px;
 }
 
-.stagger-children > *:nth-child(1) { animation-delay: 0.1s; }
-.stagger-children > *:nth-child(2) { animation-delay: 0.2s; }
-.stagger-children > *:nth-child(3) { animation-delay: 0.3s; }
-.stagger-children > *:nth-child(4) { animation-delay: 0.4s; }
-.stagger-children > *:nth-child(5) { animation-delay: 0.5s; }
-.stagger-children > *:nth-child(6) { animation-delay: 0.6s; }
-
-.card-lift {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+@media (max-width: 768px) {
+  .landing-sections > .fade-in-section + .fade-in-section {
+    margin-top: 96px;
+  }
+  .landing-sections > :first-child + .fade-in-section {
+    margin-top: 80px;
+  }
 }
 
-.card-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+/* ========================================
+   COMPLIANCE TEXTURE — Institutional trust
+   ======================================== */
+
+.compliance-dark {
+  position: relative;
+}
+
+.compliance-dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.01) 0px,
+    transparent 1px,
+    transparent 2px,
+    rgba(255, 255, 255, 0.01) 3px
+  );
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ========================================
+   REDUCED MOTION — Accessibility
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-section,
+  .fade-in-section.is-visible,
+  .fade-in-section.is-visible > * {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

@@ -22,7 +22,7 @@ const services = [
     href: '/es/servicios/salud-sexual',
   },
   {
-    title: 'Cirugía Mínimamente Invasiva',
+    title: 'Cirugía Reconstructiva Pélvica',
     description: 'Técnicas laparoscópicas y reconstructivas avanzadas con protocolos de recuperación acelerada y seguimiento especializado.',
     href: '/es/servicios/cirugia-minimamente-invasiva',
   },
@@ -35,31 +35,43 @@ const services = [
 
 export default function ServicesGrid() {
   return (
-    <section className="section-spacing section-white">
-      <div className="max-w-[1600px] mx-auto px-8">
+    <section className="px-6 py-24 md:py-[140px]">
+      <div className="max-w-5xl mx-auto">
+        <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-taupe mb-4">
+          Áreas de Especialización
+        </p>
+        <h2 className="text-borgonia mb-6 max-w-3xl">
+          Atención especializada en cada dimensión de la salud pélvica femenina.
+        </h2>
+        <p className="text-lg text-grafito leading-[1.7] max-w-[75ch] mb-16">
+          Desde evaluación diagnóstica hasta procedimientos quirúrgicos avanzados,
+          cada área de práctica se sustenta en protocolos internacionales y
+          experiencia clínica directa.
+        </p>
 
-        {/* Section header */}
-        <div className="text-center mb-16">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-12 h-[2px] bg-oro" />
-            <span className="text-sm font-medium tracking-wide text-taupe uppercase">
-              Especialización
-            </span>
-            <div className="w-12 h-[2px] bg-oro" />
-          </div>
-          <h2 className="text-4xl md:text-5xl font-semibold text-borgonia mb-6">
-            Áreas de Especialización
-          </h2>
-          <p className="text-lg text-grafito max-w-3xl mx-auto">
-            Atención especializada en condiciones que afectan la función urinaria,
-            el piso pélvico y la salud sexual femenina.
+        {/* Featured card */}
+        <div className="bg-white shadow-[0_2px_8px_rgba(61,55,53,0.08),0_16px_48px_rgba(61,55,53,0.12)] rounded-[12px] p-12 md:p-[60px] mb-10">
+          <h3 className="font-extrabold text-[28px] md:text-[32px] text-borgonia mb-6 tracking-[-0.01em]">
+            {services[0].title}
+          </h3>
+          <p className="text-lg text-grafito leading-[1.7] max-w-[75ch]">
+            {services[0].description} La incontinencia urinaria afecta significativamente
+            la calidad de vida. La evaluación integral permite identificar el tipo exacto
+            y diseñar un plan terapéutico que restaure función y confianza.
           </p>
         </div>
 
-        {/* Cards grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-children">
-          {services.map((service, index) => (
-            <ServiceCard key={index} {...service} index={index} />
+        {/* Supporting cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {services.slice(1, 4).map((service, i) => (
+            <ServiceCard key={i} {...service} index={i} />
+          ))}
+        </div>
+
+        {/* Secondary row */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          {services.slice(4).map((service, i) => (
+            <ServiceCard key={i} {...service} index={i + 3} />
           ))}
         </div>
       </div>

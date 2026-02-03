@@ -1,81 +1,57 @@
-import Image from 'next/image'
 import Button from '../ui/Button'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] bg-white">
-      <div className="max-w-[1600px] mx-auto">
-        <div className="grid lg:grid-cols-5 min-h-[90vh]">
+    <section className="relative overflow-hidden bg-white px-6 py-24 sm:py-32 md:py-40 lg:py-48">
+      {/* Subtle abstract element — connectivity lines */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-[200px] -right-[200px] w-[600px] h-[600px] rounded-full bg-borgonia/[0.02] blur-3xl" />
+        <div className="absolute -bottom-[300px] -left-[200px] w-[800px] h-[800px] rounded-full bg-salvia/[0.03] blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-oro/[0.02] blur-3xl" />
+      </div>
 
-          {/* LEFT: Photo - Dominant presence */}
-          <div className="lg:col-span-3 relative min-h-[600px] lg:min-h-[90vh]">
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white/10 z-10" />
-            <Image
-              src="/images/team/dra-erika-torres.jpg"
-              alt="Dra. Erika Torres Valdez, Especialista en Urología Femenina"
-              fill
-              className="object-cover object-center"
-              priority
-              quality={95}
-              sizes="(max-width: 1024px) 100vw, 60vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-borgonia/5 via-transparent to-transparent z-10" />
-          </div>
+      <div className="relative max-w-5xl mx-auto text-center">
+        {/* Eyebrow */}
+        <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-taupe mb-8">
+          Urología Femenina &amp; Piso Pélvico · Ciudad de México
+        </p>
 
-          {/* RIGHT: Content - Professional authority */}
-          <div className="lg:col-span-2 flex flex-col justify-center px-8 lg:px-16 py-20 lg:py-0">
-            <div className="max-w-xl">
+        {/* Headline — split color for authority */}
+        <h1 className="mb-8">
+          <span className="block text-borgonia">
+            Medicina Que Transforma.
+          </span>
+          <span className="block text-salvia">
+            Cuidado Que Trasciende.
+          </span>
+        </h1>
 
-              {/* Overline */}
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-[2px] bg-oro" />
-                <span className="text-sm font-medium tracking-wide text-taupe uppercase">
-                  Urología Femenina
-                </span>
-              </div>
+        {/* Subtitle */}
+        <p className="text-xl sm:text-2xl text-grafito leading-relaxed max-w-3xl mx-auto mb-12 font-light">
+          Dra. Erika Torres Valdez — Ex-Directora Médica de Salud Femenina, Bayer México.
+          Especialista certificada en urología femenina y cirugía reconstructiva pélvica.
+        </p>
 
-              {/* Name */}
-              <h1 className="text-5xl lg:text-6xl font-semibold text-borgonia leading-[1.1] mb-6">
-                Dra. Erika Torres Valdez
-              </h1>
+        {/* Dual CTAs */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Button href="/es/contacto" variant="primary">
+            Agendar Consulta
+          </Button>
+          <Button href="/es/sobre-dra-erika" variant="outline">
+            Conocer a Dra. Erika
+          </Button>
+        </div>
 
-              {/* Specialty */}
-              <p className="text-2xl lg:text-3xl text-salvia font-normal leading-tight mb-8">
-                Especialista en Urología Femenina y Medicina del Piso Pélvico
-              </p>
-
-              {/* Credentials */}
-              <div className="space-y-3 mb-10">
-                <div className="flex items-start gap-3">
-                  <div className="w-1 h-6 bg-oro mt-1 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed mb-0">
-                    Ex-Directora Médica de Salud Femenina<br />
-                    <span className="font-medium">Bayer México</span>
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-1 h-6 bg-oro mt-1 shrink-0" />
-                  <p className="text-lg text-grafito leading-relaxed mb-0">
-                    Certificada por el<br />
-                    <span className="font-medium">Consejo Mexicano de Urología</span>
-                  </p>
-                </div>
-              </div>
-
-              <Button href="/es/contacto" variant="primary">
-                Agendar Consulta
-              </Button>
-
-              {/* Trust indicators */}
-              <div className="mt-12 pt-8 border-t border-perla">
-                <p className="text-sm text-taupe mb-1">
-                  World Trade Center, Ciudad de México
-                </p>
-                <p className="text-sm text-taupe mb-0">
-                  Consultas en Español e English
-                </p>
-              </div>
-            </div>
+        {/* Trust bar */}
+        <div className="mt-16 pt-8 border-t border-perla/60">
+          <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[13px] font-bold uppercase tracking-[0.1em] text-taupe">
+            <span>Consejo Mexicano de Urología</span>
+            <span className="hidden sm:inline text-perla">·</span>
+            <span>IUGA</span>
+            <span className="hidden sm:inline text-perla">·</span>
+            <span>AUGS</span>
+            <span className="hidden sm:inline text-perla">·</span>
+            <span>World Trade Center CDMX</span>
           </div>
         </div>
       </div>
