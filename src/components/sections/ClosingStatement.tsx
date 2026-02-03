@@ -3,18 +3,17 @@ export default function ClosingStatement() {
     <section className="bg-borgonia px-6 py-[100px] md:py-[140px]">
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-[13px] font-bold uppercase tracking-[0.15em] text-oro mb-8">
-          Dé el Primer Paso
+          Primera Consulta
         </p>
 
         <h2 className="text-white mb-8 max-w-3xl mx-auto">
-          No tiene que seguir viviendo con estos síntomas.
+          El primer paso es una conversación.
         </h2>
 
         <p className="text-lg text-white/80 leading-[1.7] max-w-[65ch] mx-auto mb-12">
-          La consulta inicial es una conversación confidencial donde hablaremos
-          de lo que está experimentando, responderemos sus preguntas, y le explicaremos
-          las opciones de tratamiento. Sin presiones, sin juicios — solo información
-          clara para que pueda tomar la mejor decisión para su salud.
+          La consulta inicial incluye historia clínica detallada, evaluación
+          diagnóstica cuando apropiado, y desarrollo de un plan de tratamiento
+          personalizado basado en sus síntomas, objetivos y preferencias.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -25,10 +24,10 @@ export default function ClosingStatement() {
             Agendar Consulta
           </a>
           <a
-            href="/es/preguntas-frecuentes"
+            href="/es/sobre-dra-erika"
             className="inline-flex items-center justify-center font-bold text-lg tracking-wide transition-all duration-300 rounded-sm px-8 py-4 text-white border-2 border-white/60 hover:bg-white hover:text-borgonia"
           >
-            Preguntas Frecuentes
+            Conocer a Dra. Erika
           </a>
         </div>
 
