@@ -1,5 +1,6 @@
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import ContactFormES from '@/components/forms/ContactFormES'
 
 export const metadata = {
   title: 'Contacto | Agendar Consulta con Dra. Erika Torres',
@@ -55,92 +56,7 @@ export default function ContactPage() {
 
               <div>
                 <h3 className="mb-6 text-borgonia">Solicitud de Consulta</h3>
-                <form
-                  name="consulta-es"
-                  method="POST"
-                  data-netlify="true"
-                  netlify-honeypot="bot-field"
-                  className="space-y-4"
-                >
-                  <input type="hidden" name="form-name" value="consulta-es" />
-                  <p className="hidden">
-                    <label>
-                      No llenar: <input name="bot-field" />
-                    </label>
-                  </p>
-                  <div>
-                    <label htmlFor="nombre" className="block text-sm font-medium text-grafito mb-2">
-                      Nombre completo *
-                    </label>
-                    <input
-                      type="text"
-                      id="nombre"
-                      name="nombre"
-                      required
-                      className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="edad" className="block text-sm font-medium text-grafito mb-2">
-                      Edad *
-                    </label>
-                    <input
-                      type="number"
-                      id="edad"
-                      name="edad"
-                      required
-                      min={18}
-                      className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-grafito mb-2">
-                      Email *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="telefono" className="block text-sm font-medium text-grafito mb-2">
-                      Teléfono *
-                    </label>
-                    <input
-                      type="tel"
-                      id="telefono"
-                      name="telefono"
-                      required
-                      placeholder="+52 55 XXXX XXXX"
-                      className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="motivo" className="block text-sm font-medium text-grafito mb-2">
-                      Motivo de consulta *
-                    </label>
-                    <textarea
-                      id="motivo"
-                      name="motivo"
-                      required
-                      rows={4}
-                      placeholder="Describa brevemente el motivo de su consulta. No incluya información médica detallada."
-                      className="w-full px-4 py-2 border border-perla rounded-lg focus:outline-none focus:border-borgonia"
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full px-10 py-4 bg-borgonia text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all hover:bg-borgonia/90"
-                  >
-                    Enviar Solicitud
-                  </button>
-                  <p className="text-xs text-taupe">
-                    * Campos requeridos. Nos pondremos en contacto en un plazo de 24-48 horas hábiles.
-                  </p>
-                </form>
+                <ContactFormES />
               </div>
             </div>
           </div>
