@@ -2,11 +2,10 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative bg-white border-b border-perla">
+    <section className="bg-white border-b border-perla">
       <div className="max-w-5xl mx-auto px-6 lg:px-8 py-20 lg:py-28">
         <div className="max-w-4xl mx-auto">
 
-          {/* Name + restrained photo */}
           <div className="flex items-start justify-between mb-12">
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-6">
@@ -16,7 +15,7 @@ export default function Hero() {
                 </span>
               </div>
 
-              <h1 className="text-5xl lg:text-6xl font-semibold text-borgonia leading-[1.1] mb-8">
+              <h1 className="text-borgonia mb-8">
                 Dra. Erika Torres Valdez
               </h1>
             </div>
@@ -34,7 +33,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Credentials */}
           <div className="space-y-5 mb-12 max-w-3xl">
             <div className="flex items-start gap-4">
               <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
@@ -62,11 +60,10 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* CTA */}
           <div className="flex items-center gap-6">
             <a
               href="/es/contacto"
-              className="inline-block px-10 py-4 bg-borgonia text-white font-semibold text-base rounded-sm shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+              className="inline-block px-10 py-4 bg-borgonia text-white font-semibold text-base rounded-sm hover:-translate-y-0.5 transition-all duration-300"
             >
               Agendar Consulta
             </a>

@@ -31,10 +31,7 @@ export default function PracticeOverview() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
           {values.map((v, i) => (
-            <div
-              key={i}
-              className="bg-borgonia-light rounded-[12px] p-10"
-            >
+            <div key={i} className="bg-borgonia-light rounded-[12px] p-10">
               <h3 className="text-xl font-extrabold text-borgonia mb-4 tracking-[-0.01em]">
                 {v.title}
               </h3>

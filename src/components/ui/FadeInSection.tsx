@@ -22,7 +22,7 @@ export default function FadeInSection({ children, className = '' }: FadeInSectio
           observer.unobserve(el)
         }
       },
-      { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+      { threshold: 0.1 }
     )
 
     observer.observe(el)
