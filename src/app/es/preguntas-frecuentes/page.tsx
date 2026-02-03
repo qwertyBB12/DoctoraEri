@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: '¿Cuál es la ubicación del consultorio?',
-    answer: 'El consultorio se encuentra en el World Trade Center, Montecito 38, Piso 16, Oficina 36, Colonia Nápoles, Benito Juárez, Ciudad de México, 03810.',
+    answer: 'El consultorio se encuentra en el World Trade Center México City, Montecito 38, Piso 12, Colonia Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX.',
   },
 ]
 

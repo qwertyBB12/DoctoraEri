@@ -26,10 +26,10 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-semibold text-borgonia mb-2">Ubicación</h4>
                     <p className="text-sm">
-                      World Trade Center<br />
-                      Montecito 38, Piso 16, Oficina 36<br />
+                      World Trade Center México City<br />
+                      Montecito 38, Piso 12<br />
                       Nápoles, Benito Juárez<br />
-                      Ciudad de México, 03810
+                      03810 Ciudad de México, CDMX
                     </p>
                   </div>
                   <div>
@@ -42,8 +42,8 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-semibold text-borgonia mb-2">Contacto</h4>
                     <p className="text-sm">
-                      Teléfono: +52 55 1234 5678<br />
-                      WhatsApp: +52 55 1234 5678<br />
+                      Teléfono: 55 6465 5364<br />
+                      WhatsApp: 55 6465 5364<br />
                       Email: contacto@doctoraeri.com
                     </p>
                   </div>

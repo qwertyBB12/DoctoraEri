@@ -55,7 +55,7 @@ export default function Hero() {
             <div className="flex items-start gap-4">
               <div className="w-1 h-6 bg-oro mt-1.5 shrink-0" />
               <p className="text-lg text-grafito leading-relaxed">
-                <strong className="font-semibold text-borgonia">Urofemina</strong> · World Trade Center, Ciudad de México
+                <strong className="font-semibold text-borgonia">Urofemina</strong> · World Trade Center, CDMX
               </p>
             </div>
           </div>
